@@ -1,0 +1,10 @@
+{
+ "entries": 3400,
+ "outcomes": {
+  "cached": 4,
+  "not_in_pdbredo": 2188,
+  "downloaded": 1208
+ },
+ "bytes": 8439702941,
+ "gib": 7.86
+}

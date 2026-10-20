@@ -1,0 +1,315 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head> <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <title>NAKB</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0K2RSNBJTZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-0K2RSNBJTZ'); 
+</script>
+
+<meta property="og:title" content="Nucleic Acid Knowledge Base" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://nakb.org" />
+<meta property="og:image" content="/images/nakb-logo-500px.png" />
+
+
+<link rel="icon"          href="/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+
+<link href="/css/bootstrap4.1.3.min.css" type="text/css" rel="stylesheet" media="screen, projection, print"/>
+<link href="/css/extra-styles.css"       type="text/css" rel="stylesheet" media="screen, projection, print"/>
+
+<script src="/js/jquery-3.3.1.min.js"      type="text/javascript"></script>
+<script src="/js/popper1.12.9.min.js"      type="text/javascript"></script>
+<script src="/js/bootstrap4.1.3.min.js"    type="text/javascript"></script>
+
+<script src="/js/share.js"           type="text/javascript"></script>
+<script src="/js/NAKBprotdict.js"    type="text/javascript"></script>
+<script src="/js/NAKBnadict.js"      type="text/javascript"></script>
+<script src="/js/NAKBliganddict.js"  type="text/javascript"></script>
+<script src="/js/PPCdict.js"         type="text/javascript"></script>
+
+<script type="text/javascript" src="/js/bootstrap3-typeahead.min.js"></script>
+
+
+<script>
+var sitebanner="";
+if (location.hostname.search("dev")  != -1) {sitebanner = "DEVELOPMENT SITE"; }
+//else if (location.hostname.search("beta") != -1) {sitebanner = "BETA TESTING SITE"; }
+</script>
+
+<script> $(function () { $('[data-toggle="tooltip"]').tooltip({ trigger : 'hover' }) }) </script>
+
+
+<script src="/js/getentry.js"    type="text/javascript"></script>
+<link href="/css/bootstrap.carousel.css" type="text/css" rel="stylesheet" media="screen, projection, print">
+</head>
+
+<body>
+<div class="container-fluid">
+<div class="row" style="background-color: #CCC;">
+<div class="col-md-6" style="margin-top: 8px; margin-bottom: 8px;"> <b><span id="siteid"></span></b></div>
+
+<script> document.getElementById("siteid").innerHTML = sitebanner;</script>
+
+<div class="col-md-6" style="margin-top: 8px; margin-bottom: 8px;"> <div class="float-right"><span id='update_date'>2026-10-14</span> : 22629 3D structures containing nucleic acids | RNAEQ <a target='_blank' href='http://rna.bgsu.edu/rna3dhub/nrlist/release/4.61/all'>v4.61all</a> </div>
+ </div>
+</div>
+</div> <!--end row-->
+
+<div class="row" >
+<div class="col-lg-2" style="margin-top: 4px; margin-bottom: 0px;">
+<a href="/"><img src="/images/nakb-logo.svg" alt="nakb.org" height="65" style="margin-left: 10px; margin-right: 10px;" /></a></div>
+<div class="col-lg-4" style="margin-top: 30px; margin-bottom: 10px;"><center><!--a class='badge badge-external' href="/annotations.html"><i>June 2023: New NA, Protein Annotation Trees</i></a--></center></div>
+
+<div class="col-lg-6" style="margin-top: 24px; "> <div class="float-right">
+    <form class="form-inline">
+    <div class="input-group mb-3">
+      <a href="/nakblist=all"  target="_blank" id="searchall" class="btn btn-primary" ><b>Full Search</b></a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <input id="homequery" class="form-control typeahead" data-show-hint-on-focus="true" 
+        data-provide="typeahead" autocomplete="off" data-autoselect="false" 
+        type="search" placeholder="Quick Search: enter PDB/NDB id, author or keyword" size="48"  aria-label="Search NAKB">
+      <button id="btnSearch" class="btn btn-secondary" type="submit" 
+         style="background-color: #CCC; margin-right: 10px;" ><img src="/images/search_icon.svg" alt="search" /></button>
+    </div></form><br/>
+<!--h3>Portal for 3D structural information about Nucleic Acids </h3--></div>
+</div>
+</div>
+</div>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="nav navbar-nav mr-auto">
+
+         <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+
+
+	 <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" 
+            role="button" aria-haspopup="true" aria-expanded="false">Tools</a>
+
+       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+         <a class="dropdown-item"  href="/nakblist=all" >Full Search</a>
+         <a class="dropdown-item"  href="/annotations.html">Explore Annotations: Tree Views</a>
+         <a class="dropdown-item"  href="/searchterms.html">Explore Annotations: Table Views</a>
+         <a class="dropdown-item"  href="/statistics.html" >Custom Charts</a>
+         <a class="dropdown-item"  href="/modifiednt.html" >Modified Nucleotide Browser</a>
+		 <a class="dropdown-item"  href="/natools.html">External Resources</a>
+       </div>
+	 </li>
+
+
+         <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
+             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Education</a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		 <a class="dropdown-item"  href="/basics/intro.html">Introduction to Nucleic Acids</a>
+		 <a class="dropdown-item"  href="/ndbmodule/bp-catalog/">RNA Basepair Catalog</a>
+		 <a class="dropdown-item"  href="/basics/pdb101.html">NA Molecules of the Month</a>
+		 <a class="dropdown-item"  href="/basics/rnaj.html"><i>RNA Journal</i> Cover Images</a>
+		 <a class="dropdown-item"  href="/ndbmodule/music/">DNA Music Atlas</a>
+         </div> </li>
+
+         <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
+             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Standards</a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		 <a class="dropdown-item"  href="/basics/valencegeometry.html">Valence Geometry <span style="color:red"><b>2026 Update!</b></span></a>
+		 <a class="dropdown-item"  href="/basics/nucleotides.html">Nucleotides</a>
+		 <a class="dropdown-item"  href="/basics/basepairs.html">Base Pairs</a>
+         </div> </li>
+
+         <li class="nav-item"><a class="nav-link"  href="/download.html">Download</a></li>
+
+         <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+
+   </ul>
+
+    </div><!-- navbar header-->
+   </nav>
+
+
+<input type="hidden" id="nakbpage" name="nakbpage" value="carousel">
+
+
+<input type='hidden' id='newrel' name='newrel' value='released:2026-10-14'>
+
+<div class="card-body">
+
+<!--div class="row"> 
+<div class="col-lg-12"><div class="alert alert-success alert-dismissible">
+<button type="button" class="close" data-dismiss="alert">&times;</button>
+Jan 2026: New targets and procedures for validating valence geometry of NA structures. For more info visit <a href="/basics/valencegeometry.html">NAKB's valence geometry standards page</a>.
+</div> </div> </div-->
+<div class="row"> 
+
+<div class="col-lg-5">                                                                          
+<div class="card"> <!--start card for NAKB-->                                                   
+<div class="card-header" style="background-color: #E4E4E4;"> <!--start card heading-->          
+      <div class="float-left"><h3>Welcome to NAKB</h3></div>                                         
+</div><!-- end card-header -->
+<div class="card-body"> <!-- start card-body -->
+<p>The Nucleic Acid Knowledgebase (NAKB), portal for 3D structural information about Nucleic Acids, is successor to the Nucleic Acid Database (NDB), as described in:</p>
+
+<ul>
+<li> Lawson CL, Berman HM, Vallat B, Chen L, Zirbel C (2024) The Nucleic Acid Knowledgebase: a new portal for 3D structural information about nucleic acids. <i>Nucleic Acids Research</i> 52, D245.  <a class='badge badge-external' href="https://doi.org/10.1093/nar/gkad957" target="_blank">DOI</a> </li>
+
+<li> Berman HM, Lawson CL, Schneider B (2022) Developing Community Resources for Nucleic Acid Structures. <i>Life</i> 12, 540.  <a class='badge badge-external' href="https://doi.org/10.3390/life12040540" target="_blank">DOI</a> </li>
+
+
+<li><a href="https://www.youtube.com/watch?v=HkrI4EUw1nQ" target="_blank">November 2023 online lecture (YouTube)</a> describing NAKB to the <a href="https://groups.google.com/g/casp-rna-sig" target="_blank">CASP RNA special interest group</a>.</li>
+                     
+
+</ul>
+<p>NAKB provides <a href="/annotations.html" target="_blank">NA, Protein, and Ligand Annotations</a>, <a href="/nakblist=all" target="_blank">Search</a>, <a href="/?table=released:[1980%20TO%201990]&terms=" target="_blank">Report</a>, <a href="/statistics.html" target="_blank">Statistics</a>, <a href="/atlas=1TRR" target="_blank">Atlas</a> and <a href="/molstar.html?1D76_1" target="_blank">Visualization</a> for all nucleic-acid containing experimentally determined 3D structures held by NDB and by the <a href="https://rcsb.org" target="_blank">Protein Data Bank (PDB)</a>, including all major methods: <a href='/nakblist=method:"X-ray"' target="_blank">X-ray</a>, 
+<a href="/nakblist=method:EM" target="_blank">Electron Microscopy</a>, 
+and 
+<a href="/nakblist=method:NMR" target="_blank">NMR</a>.
+For each structure, links are provided to <a href="/natools.html?NAKB" target="_blank">external resources</a> that annotate and analyze nucleic acid structures and their complexes.</p>
+</div> <!-- end card-body -->
+</div><!-- end card -->
+
+</div><!-- end col -->
+
+<div class="col-lg-7"> 
+
+<div class="card"><!-- start card for carousel -->
+
+<div class="card-header" style="background-color: #E4E4E4;"> 
+      <div class="float-left"><h3>Recently Released</h3></div>
+      <div class="float-right" style='padding-top: 6px'><h3><small><a href="/nakblist=latest"> All recent entries<span id="recentnumber"></span></a></small></h3></div>
+</div>
+
+<div class="card-body"> <!--start card body for carousel -->
+
+<div id="NAKBCarousel" class="carousel slide carousel-fade" data-ride="carousel"><!-- start carousel-->
+
+     <div class="d-none d-md-block">
+    <ol class="carousel-indicators">
+ 
+ <li data-target="#NAKBCarousel" data-slide-to="0" class="active"></li>
+ <li data-target="#NAKBCarousel" data-slide-to="1"   ></li>
+ <li data-target="#NAKBCarousel" data-slide-to="2"   ></li>
+ <li data-target="#NAKBCarousel" data-slide-to="3"   ></li>
+ <li data-target="#NAKBCarousel" data-slide-to="4"   ></li>
+ <li data-target="#NAKBCarousel" data-slide-to="5"   ></li>
+ <li data-target="#NAKBCarousel" data-slide-to="6"   ></li>
+ <li data-target="#NAKBCarousel" data-slide-to="7"   ></li>
+ <li data-target="#NAKBCarousel" data-slide-to="8"   ></li>
+ <li data-target="#NAKBCarousel" data-slide-to="9"   ></li>
+ <li data-target="#NAKBCarousel" data-slide-to="10"   ></li>
+ <li data-target="#NAKBCarousel" data-slide-to="11"   ></li>
+ <li data-target="#NAKBCarousel" data-slide-to="12"   ></li>
+ <li data-target="#NAKBCarousel" data-slide-to="13"   ></li>
+ <li data-target="#NAKBCarousel" data-slide-to="14"   ></li>
+ <li data-target="#NAKBCarousel" data-slide-to="15"   ></li>
+ <li data-target="#NAKBCarousel" data-slide-to="16"   ></li>
+ <li data-target="#NAKBCarousel" data-slide-to="17"   ></li>
+ <li data-target="#NAKBCarousel" data-slide-to="18"   ></li>
+ <li data-target="#NAKBCarousel" data-slide-to="19"   ></li>
+
+    </ol> <!--end carousel-indicators -->
+    </div><!-- end class d-none d-md-block -->
+
+    <div class="carousel-inner">
+    <div id='results'> </div>
+
+    </div> <!-- end carousel-inner-->
+
+
+<!--carousel-controls-->
+  <a class="carousel-control-prev" href="#NAKBCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon d-none d-md-block" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#NAKBCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon d-none d-md-block" aria-hidden="true" ></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div> <!-- end NAKBCarousel --> 
+
+</div><!-- end card-body for carousel--> 
+
+</div><!-- end card for carousel--> 
+</div><!-- end col-lg-8 column -->
+
+</div> <!-- end row -->
+</div> <!-- end card -->
+
+<footer class="page-footer">
+    <div class="container-fluid">
+
+<div class="row" style="color:#FFF; background-color: #3FAFEF; background-image: linear-gradient(to right, #2E3192, #3FAFEF); padding-top: 3px; padding-bottom: 8px;">
+<div class="col-sm-2">
+</div>
+<div class="col-sm-10">
+<div class="small float-right text-right" style="margin-top: 8px;" > 
+Supported by NIH National Institute of General Medical Sciences, &copy; 2022-2026 NAKB</div>
+</div>
+</div>
+</div>
+</footer>
+<!--/div--><!-- end of panel started in header.html -->
+</div> <!--end of container started in header.html-->
+
+<script>
+
+$.get("/js/nakbauto.json", function(data){ $("#homequery").typeahead({ 
+     source: data,
+     items: 8,
+     minLength: 1,
+     delay: 60,
+     //autoSelect: true,
+     autoSelect: false,
+        }); 
+        },'json');
+
+$('#btnSearch').on('click', function () {
+    var url;
+    var searchInput = $('#homequery').val();
+    //minimum of 3 characters
+    var regex0 = new RegExp ( "(.){3,}" );
+    var results0 = regex0.exec( searchInput );
+    if (results0 !== null) {
+       var results1 = ndbidregex.exec( searchInput );
+       var results2 = pdbidregex.exec( searchInput );
+       var results3 = extpdbidregex.exec( searchInput );
+       if (results1 !== null) { url = "/atlas=" + searchInput.toUpperCase(); window.open(url);  }
+       else if (results2 !== null) { url = "/atlas=" + searchInput.toUpperCase(); window.open(url);  }
+       else if (results3 !== null) { url = "/atlas=" + searchInput; window.open(url);  }
+       else { url = "/?nakblist=" + searchInput; window.open(url);  }
+}
+});
+
+</script>
+
+
+
+<script type="text/javascript">
+//randomize first active slide
+var currentSlide;
+$(document).ready(function() {
+  currentSlide = Math.floor((Math.random() * $('.carousel-item').length));
+  $('#NAKBCarousel').carousel(currentSlide);
+});
+</script>
+
+</body>
+<script>
+$(document).ready(on_search);
+</script>
+</html>
+

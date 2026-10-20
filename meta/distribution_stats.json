@@ -1,0 +1,111 @@
+{
+ "n_chains": 4180,
+ "n_entries": 3072,
+ "length": {
+  "min": 20,
+  "max": 4458,
+  "median": 77,
+  "mean": 689.6,
+  "histogram": {
+   "100-200": 464,
+   "20-50": 1361,
+   "200-400": 113,
+   "400-700": 50,
+   "50-100": 1012,
+   "700-1001": 32,
+   "other": 1148
+  }
+ },
+ "method": {
+  "cryo-EM": 2398,
+  "X-ray": 1452,
+  "NMR": 330
+ },
+ "resolution": {
+  "n_with_resolution": 3850,
+  "median": 3.0,
+  "histogram": {
+   "0.0-2.0": 139,
+   "2.0-2.5": 476,
+   "2.5-3.0": 1196,
+   "3.0-3.5": 1399,
+   "3.5-4.0": 639,
+   "other": 1
+  }
+ },
+ "chain_composition": {
+  "with protein": 3323,
+  "RNA-only": 854,
+  "with DNA": 3
+ },
+ "merged_duplicates": 9308,
+ "pool": {
+  "main": 3849,
+  "nmr": 331
+ },
+ "funnel": {
+  "thresholds": {
+   "res_max": 4.0,
+   "res_ext": 6.0,
+   "len_min": 20,
+   "len_max": 10000,
+   "backbone_min": 0.9,
+   "canonical_min": 0.95
+  },
+  "funnel": {
+   "F0_all_chains": 28949,
+   "F1_has_rna_chain": 28949,
+   "F2_method_resolution": 26165,
+   "F2_extended_pool": 1599,
+   "F3_length": 17170,
+   "F4_backbone_completeness": 15295,
+   "F5_canonical_sequence": 13488,
+   "F6_exact_dedup": 4180,
+   "F6_merged_duplicates": 9308
+  },
+  "rejection_reasons": {
+   "F2_resolution_too_low": 1175,
+   "F2_no_resolution": 10,
+   "F3_too_short": 8995,
+   "F4_incomplete_backbone": 1875,
+   "F5_too_many_modified": 1807
+  }
+ },
+ "cluster_summary": {
+  "100": {
+   "n_sequences": 4716,
+   "n_clusters": 3660,
+   "singleton_clusters": 3108,
+   "largest_cluster": 31,
+   "mean_cluster_size": 1.29
+  },
+  "90": {
+   "n_sequences": 4716,
+   "n_clusters": 2052,
+   "singleton_clusters": 1378,
+   "largest_cluster": 153,
+   "mean_cluster_size": 2.3
+  },
+  "70": {
+   "n_sequences": 4716,
+   "n_clusters": 1751,
+   "singleton_clusters": 1146,
+   "largest_cluster": 326,
+   "mean_cluster_size": 2.69
+  },
+  "50": {
+   "n_sequences": 4716,
+   "n_clusters": 1667,
+   "singleton_clusters": 1095,
+   "largest_cluster": 392,
+   "mean_cluster_size": 2.83
+  },
+  "30": {
+   "n_sequences": 4716,
+   "n_clusters": 1657,
+   "singleton_clusters": 1087,
+   "largest_cluster": 429,
+   "mean_cluster_size": 2.85
+  }
+ }
+}

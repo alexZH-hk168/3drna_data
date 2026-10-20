@@ -1,0 +1,36 @@
+{
+ "tier": 30,
+ "seed": 42,
+ "time_cutoff": null,
+ "n_clusters": 1602,
+ "n_groups": 1194,
+ "n_holdout_groups": 0,
+ "chain_counts": {
+  "train": 3256,
+  "test": 232,
+  "val": 292
+ },
+ "length_balance": {
+  "train": {
+   "n": 3256,
+   "median": 77,
+   "gt1000": 932
+  },
+  "test": {
+   "n": 232,
+   "median": 73,
+   "gt1000": 3
+  },
+  "val": {
+   "n": 292,
+   "median": 64,
+   "gt1000": 22
+  }
+ },
+ "leakage_audit": {
+  "shared_clusters_train_test": 0,
+  "shared_pdb_entries_across_train_val_test": 0,
+  "shared_exact_sequences_train_test": 0,
+  "note": "同一 PDB 条目已被并查集合并为同组，正常情况下跨集合条目应为 0"
+ }
+}

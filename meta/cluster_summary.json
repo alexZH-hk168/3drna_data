@@ -1,0 +1,37 @@
+{
+ "100": {
+  "n_sequences": 4716,
+  "n_clusters": 3660,
+  "singleton_clusters": 3108,
+  "largest_cluster": 31,
+  "mean_cluster_size": 1.29
+ },
+ "90": {
+  "n_sequences": 4716,
+  "n_clusters": 2052,
+  "singleton_clusters": 1378,
+  "largest_cluster": 153,
+  "mean_cluster_size": 2.3
+ },
+ "70": {
+  "n_sequences": 4716,
+  "n_clusters": 1751,
+  "singleton_clusters": 1146,
+  "largest_cluster": 326,
+  "mean_cluster_size": 2.69
+ },
+ "50": {
+  "n_sequences": 4716,
+  "n_clusters": 1667,
+  "singleton_clusters": 1095,
+  "largest_cluster": 392,
+  "mean_cluster_size": 2.83
+ },
+ "30": {
+  "n_sequences": 4716,
+  "n_clusters": 1657,
+  "singleton_clusters": 1087,
+  "largest_cluster": 429,
+  "mean_cluster_size": 2.85
+ }
+}

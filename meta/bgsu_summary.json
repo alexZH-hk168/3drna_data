@@ -1,0 +1,61 @@
+{
+ "release": "4.61",
+ "by_cutoff": {
+  "1.5A": {
+   "n_classes": 164,
+   "n_chains": 419,
+   "largest_class": 30,
+   "singleton_classes": 101,
+   "mean_class_size": 2.55
+  },
+  "2.0A": {
+   "n_classes": 610,
+   "n_chains": 1572,
+   "largest_class": 36,
+   "singleton_classes": 362,
+   "mean_class_size": 2.58
+  },
+  "2.5A": {
+   "n_classes": 1444,
+   "n_chains": 4795,
+   "largest_class": 156,
+   "singleton_classes": 801,
+   "mean_class_size": 3.32
+  },
+  "3.0A": {
+   "n_classes": 2697,
+   "n_chains": 11350,
+   "largest_class": 392,
+   "singleton_classes": 1475,
+   "mean_class_size": 4.21
+  },
+  "3.5A": {
+   "n_classes": 3657,
+   "n_chains": 17217,
+   "largest_class": 646,
+   "singleton_classes": 2012,
+   "mean_class_size": 4.71
+  },
+  "4.0A": {
+   "n_classes": 4020,
+   "n_chains": 19702,
+   "largest_class": 794,
+   "singleton_classes": 2245,
+   "mean_class_size": 4.9
+  },
+  "20.0A": {
+   "n_classes": 4521,
+   "n_chains": 22070,
+   "largest_class": 902,
+   "singleton_classes": 2575,
+   "mean_class_size": 4.88
+  },
+  "all": {
+   "n_classes": 5233,
+   "n_chains": 22927,
+   "largest_class": 902,
+   "singleton_classes": 3214,
+   "mean_class_size": 4.38
+  }
+ }
+}

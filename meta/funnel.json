@@ -1,0 +1,28 @@
+{
+ "thresholds": {
+  "res_max": 4.0,
+  "res_ext": 6.0,
+  "len_min": 20,
+  "len_max": 10000,
+  "backbone_min": 0.9,
+  "canonical_min": 0.95
+ },
+ "funnel": {
+  "F0_all_chains": 28949,
+  "F1_has_rna_chain": 28949,
+  "F2_method_resolution": 26165,
+  "F2_extended_pool": 1599,
+  "F3_length": 17170,
+  "F4_backbone_completeness": 15295,
+  "F5_canonical_sequence": 13488,
+  "F6_exact_dedup": 4180,
+  "F6_merged_duplicates": 9308
+ },
+ "rejection_reasons": {
+  "F2_resolution_too_low": 1175,
+  "F2_no_resolution": 10,
+  "F3_too_short": 8995,
+  "F4_incomplete_backbone": 1875,
+  "F5_too_many_modified": 1807
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "targets_parsed": 302,
+ "nucleic_acid_targets": 74,
+ "with_pdb_id": 26,
+ "by_type": {
+  "NucA": 46,
+  "Prot-NucA": 15,
+  "NucA/Ligand": 10,
+  "RNA": 13,
+  "Prot-RNA": 0,
+  "DNA": 0,
+  "Prot-DNA": 0
+ },
+ "by_casp": {
+  "15": 13,
+  "16": 61
+ },
+ "holdout_pdb_ids": [
+  "7QR3",
+  "7QR4",
+  "7YR6",
+  "7YR7",
+  "7ZJ4",
+  "8BTZ",
+  "8FZA",
+  "8QPQ",
+  "8S95",
+  "8TVZ",
+  "8UYS",
+  "8VQV",
+  "8VVJ",
+  "9B0L",
+  "9BZ1",
+  "9BZC",
+  "9C2K",
+  "9C75",
+  "9CFN",
+  "9DCF",
+  "9ELY",
+  "9ERT",
+  "9HIO",
+  "9J6Y",
+  "9MCW",
+  "9MEE"
+ ],
+ "note": "用于训练隔离：这些 PDB 条目及其同 cluster 成员不得进入训练集"
+}

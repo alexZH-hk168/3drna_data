@@ -1,0 +1,22 @@
+{
+ "clusters_total": 2199,
+ "clusters_per_split": {
+  "train": 1539,
+  "test": 660
+ },
+ "clusters_with_rfam_hit": {
+  "train": 1539,
+  "test": 560
+ },
+ "clusters_without_rfam_hit": {
+  "train": 0,
+  "test": 100
+ },
+ "cmscan_files": [
+  "2026-01-05-nohits.tbl",
+  "2026-01-05.tbl"
+ ],
+ "distinct_rfam_families": 890,
+ "sql_note": "split.json 的键是簇代表元，值不携带簇大小；链口径看官方 rna3db_stats.json",
+ "cross_check_note": "官方 stats：train 13,451 / test 1,990 条链；无 Rfam 命中 58 / 1,365 条链。本表 test 有 100 个簇无命中，对应官方 1,365 条链，说明留出的是少数大型簇"
+}

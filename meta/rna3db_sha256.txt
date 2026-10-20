@@ -1,0 +1,4 @@
+53c323c61aef5b9bb72a88bc3980470a13d0f36d559e1bdaf5582173f0a3b751  raw/rna3db/rna3db-cmscans.tar.gz
+820ba611042ef3e4ec1de7d00e739eefcbf1f78df1452252cc002e369babae8b  raw/rna3db/rna3db-jsons.tar.gz
+4be4290ee40e1407e1356d804355ba5e4971da527baa5f381116bac327ec9067  raw/rna3db/rna3db-mmcifs.tar.xz
+01f5e1d89e2a369bcfc8ee7615c01163f7eb1144924d4ec6ab58a30bc85398e6  raw/rna3db/rna3db_LICENSE

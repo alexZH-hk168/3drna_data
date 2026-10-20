@@ -1,0 +1,56 @@
+{
+ "chains_checked": 239,
+ "by_cutoff": {
+  "1.5A": {
+   "matched": 2,
+   "coverage": 0.008,
+   "distinct_classes": 2
+  },
+  "2.0A": {
+   "matched": 15,
+   "coverage": 0.063,
+   "distinct_classes": 15
+  },
+  "2.5A": {
+   "matched": 35,
+   "coverage": 0.146,
+   "distinct_classes": 31
+  },
+  "3.0A": {
+   "matched": 107,
+   "coverage": 0.448,
+   "distinct_classes": 84
+  },
+  "3.5A": {
+   "matched": 185,
+   "coverage": 0.774,
+   "distinct_classes": 138
+  },
+  "4.0A": {
+   "matched": 214,
+   "coverage": 0.895,
+   "distinct_classes": 158
+  },
+  "20.0A": {
+   "matched": 214,
+   "coverage": 0.895,
+   "distinct_classes": 158
+  },
+  "all": {
+   "matched": 231,
+   "coverage": 0.967,
+   "distinct_classes": 174
+  }
+ },
+ "unmatched_examples": [
+  "11FS_G",
+  "9KJY_H",
+  "8PEG_V",
+  "9ESH_1",
+  "28ZY_B",
+  "8PVV_R",
+  "7JT2_4",
+  "8SP0_C"
+ ],
+ "note": "对不上 BGSU 的链可能原因：该结构尚未进入 BGSU 4.61、链级过滤口径不同、或 BGSU 只收 resolution ≤ 其档位要求的条目"
+}

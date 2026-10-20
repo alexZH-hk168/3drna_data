@@ -1,0 +1,238 @@
+{
+  "registry_version": "0.1",
+  "measured_at": "2026-10-20",
+  "measured_from_host": "cloudpc",
+  "notes": "status 取值：indexed=索引已取得；partial=部分可达或仅元数据；blocked=入口待核或不可达；pending=尚未实测。volume_bytes 只对实际下载到盘的文件成立。",
+  "sources": [
+    {
+      "id": "D01",
+      "name": "PDB / RCSB",
+      "role": "primary_archive",
+      "tier": "train",
+      "entry": "https://search.rcsb.org",
+      "version": "live, accessed 2026-10-20",
+      "status": "indexed",
+      "volume_bytes": 0,
+      "measured": {
+        "rna_containing_entries": 10502,
+        "by_method": {"ELECTRON MICROSCOPY": 5370, "X-RAY": 4301, "NMR": 819, "OTHER": 12},
+        "rna_only_entries": 2307,
+        "with_resolution": 9675,
+        "release_years": "1978-2026"
+      },
+      "evidence": ["meta/rcsb_entries.jsonl", "meta/rcsb_index_summary.json"],
+      "script": "scripts/00_rcsb_index.py",
+      "license": "PDB archive data CC0; RCSB website content under separate terms",
+      "blocker": null
+    },
+    {
+      "id": "D03",
+      "name": "RNAsolo",
+      "role": "derived_clean",
+      "tier": "train",
+      "entry": "https://rnasolo.cs.put.poznan.pl",
+      "version": "pinned by its own API: Rfam 15.1 / BGSU 4.61 / PDB 2025-10-25",
+      "status": "partial",
+      "volume_bytes": 0,
+      "measured": {
+        "version_api": "GET /api/statistics/version/ -> 200 JSON",
+        "rfam_ver": "15.1 (2026-01-20)",
+        "bgsu_ver": "4.61 (2026-10-15)",
+        "pdb_ver": "2025-10-25",
+        "bgsu_struct_count": 22779,
+        "bgsu_rep_count": 5187,
+        "rfam_struct_count": 16804,
+        "rfam_family_count": 155,
+        "rfam_family_overall_count": 4227
+      },
+      "evidence": ["meta/rnasolo_version.json"],
+      "license": "unchecked",
+      "blocker": "版本接口已定位并实测，但数据集本身的下载接口尚未从前端资源中定位（SPA 内只有 download/downloadFile 两个函数名，无静态路径）"
+    },
+    {
+      "id": "D04",
+      "name": "RNA3DB",
+      "role": "derived_split",
+      "tier": "train",
+      "entry": "https://huggingface.co/datasets/StructureCloud/RNA3DB",
+      "version": "repo lastModified 2026-08-10",
+      "status": "partial",
+      "volume_bytes": 0,
+      "measured": {
+        "repo_files": ["preprocessed/", "raw/", "rna3db_stats.json", "rna3db_histogram.png", "rna3db_rna_histogram.png"],
+        "official_stats": {
+          "n_structures": 15441,
+          "n_clusters": 2199,
+          "n_singleton_clusters": 952,
+          "cluster_size_max": 693,
+          "train": {"structures": 13451, "clusters": 1539, "components": 91, "resolved_ratio": 0.909, "seq_len_mean": 936.1, "seq_len_max": 19000, "no_rfam_hit": 58},
+          "test": {"structures": 1990, "clusters": 660, "components": 51, "resolved_ratio": 0.729, "seq_len_mean": 98.1, "seq_len_max": 1824, "no_rfam_hit": 1365},
+          "label_resolution": {"min": 1.05, "mean": 3.31, "max": 9.0},
+          "method_counts": {"electron microscopy": 9625, "x-ray diffraction": 5814}
+        },
+        "split_meta_parsed": {
+          "clusters_total": 2199,
+          "clusters_per_split": {"train": 1539, "test": 660},
+          "clusters_without_rfam_hit": {"train": 0, "test": 100},
+          "distinct_rfam_families": 890,
+          "top_families": {"tRNA": 367, "LSU_rRNA_bacteria": 111, "LSU_rRNA_eukarya": 108, "5S_rRNA": 76, "SSU_rRNA_eukarya": 71},
+          "finding": "测试集 100 个无 Rfam 命中的簇全部落在同一个结构连通分量 component_0，即家族留出实际集中在一类结构上"
+        }
+      },
+      "evidence": ["meta/rna3db_stats.json", "meta/rna3db_meta_summary.json", "processed/rna3db_chains.tsv", "meta/rna3db_sha256.txt"],
+      "license": "仓库随附 MIT LICENSE（Copyright 2024 Marcell Szikszai），但正文通篇写 Software，属代码许可；底层 PDB 数据再分发仍无明确声明",
+      "blocker": "mmCIF 包 2.146 GB 与 preprocessed/train.pt 6.29 GB 未下载，等待有磁盘的机器；cmscan(88 MB)、split/cluster/filter jsons(6.9 MB) 已取得并解析"
+    },
+    {
+      "id": "D05",
+      "name": "NAKB (successor of NDB)",
+      "role": "nucleic_acid_index",
+      "tier": "reference",
+      "entry": "https://nakb.org/",
+      "version": "2026-10-14 snapshot, RNAEQ v4.61",
+      "status": "indexed",
+      "volume_bytes": 14931,
+      "measured": {"nucleic_acid_structures": 22629},
+      "evidence": ["meta/nakb_home.html"],
+      "license": "unchecked",
+      "blocker": "与 PDB 重叠，只能作注释与交叉核对，不进训练计数"
+    },
+    {
+      "id": "D06",
+      "name": "EMDB",
+      "role": "density_maps",
+      "tier": "isolated",
+      "entry": "https://www.ebi.ac.uk/emdb/",
+      "version": "live",
+      "status": "partial",
+      "volume_bytes": 130129640,
+      "measured": {
+        "holdings_ftp": "ftp.ebi.ac.uk/pub/databases/emdb/status/latest/emdb_released_holdings.json",
+        "released_entries": 62963,
+        "entries_with_cif_headers": 49855,
+        "entries_with_half_maps": 42911,
+        "entries_with_structure_factors": 121,
+        "entry_api": "GET /emdb/api/entry/EMD-10000 -> 200, 13728 B JSON",
+        "bulk_search_api": "POST /emdb/api/search -> 403"
+      },
+      "evidence": ["meta/emdb_released_holdings.json.gz", "meta/emdb_holdings_summary.json"],
+      "license": "unchecked",
+      "blocker": "条目清单已取得（含每条的 map/fsc/mask/validation 文件可得性）；但清单不带核酸标记，需由 PDB 条目的 EMDB 交叉引用反查哪些含 RNA，等全量索引时补"
+    },
+    {
+      "id": "D07",
+      "name": "cryo-EM RNA motif dataset",
+      "role": "motif_level",
+      "tier": "supplementary",
+      "entry": "https://doi.org/10.1016/j.compbiolchem.2026.109344",
+      "version": "2026, one-off release",
+      "status": "pending",
+      "volume_bytes": 0,
+      "measured": {},
+      "evidence": [],
+      "license": "unchecked",
+      "blocker": "获取方式待核（论文正文或补充材料）"
+    },
+    {
+      "id": "D35",
+      "name": "rnaglib + RNA 3D structure-function benchmarks",
+      "role": "derived_benchmark",
+      "tier": "train_aux",
+      "entry": "https://github.com/cgoliver/rnaglib",
+      "version": "live repo",
+      "status": "partial",
+      "volume_bytes": 0,
+      "measured": {"http": 200, "repo_bytes": 345084, "data_build": "仓库用 data_build.sh 调用 rnaglib_prepare 现场构建数据集，没有静态打包的 7 个基准下载地址"},
+      "evidence": ["https://github.com/cgoliver/rnaglib/blob/main/data_build.sh"],
+      "license": "unchecked",
+      "blocker": "数据不是现成压缩包，而是跑它自己的 prepare 流水线现建（会自行下载 PDB）；与 RNANet 同类，都是 PDB 派生的自建流水线"
+    },
+    {
+      "id": "D45",
+      "name": "wwPDB (PDBe / PDBj mirrors)",
+      "role": "mirror_of_D01",
+      "tier": "train",
+      "entry": "https://www.wwpdb.org",
+      "version": "weekly sync",
+      "status": "duplicate",
+      "volume_bytes": 0,
+      "measured": {"relation": "same archive as D01"},
+      "evidence": [],
+      "license": "same as D01",
+      "blocker": "与 D01 同一档案，只作下载镜像通道，不单独计数"
+    },
+    {
+      "id": "D46",
+      "name": "PDB-REDO",
+      "role": "re_refined",
+      "tier": "train_aux",
+      "entry": "https://pdb-redo.eu",
+      "version": "monthly",
+      "status": "partial",
+      "volume_bytes": 4057,
+      "measured": {"entry_page": "GET /db/1abc -> 200, 4057 B", "api": "GET /api -> 401"},
+      "evidence": [],
+      "license": "unchecked",
+      "blocker": "批量条目清单入口未找到（/db/ 返回 500，/api 需鉴权）；按 PDB 条目逐条取可行"
+    },
+    {
+      "id": "D47",
+      "name": "RNANet",
+      "role": "derived_sequence_structure",
+      "tier": "train_aux",
+      "entry": "https://github.com/persalteas/RNANet",
+      "version": "MIT, repo updated 2026-03-29, 3.8 MB",
+      "status": "indexed",
+      "volume_bytes": 0,
+      "measured": {
+        "rnanet.cchc.cl": "no response (000)",
+        "repo": "persalteas/RNANet",
+        "homepage": "evryrna.ibisc.univ-evry.fr/evryrna/rnanet/rnanet_home",
+        "nature": "不是静态数据集包，而是构建流水线：按 INSTALL.md 跑起来后从 PDB 现场建库（含 DSSR 注释与同源比对）"
+      },
+      "evidence": ["https://github.com/persalteas/RNANet/blob/master/README.md"],
+      "license": "MIT (仓库)",
+      "blocker": "属于自建流水线，不是一次性下载；跑它会再下一遍 PDB，需先决定是导入其产物还是只复用其注释逻辑"
+    },
+    {
+      "id": "D49",
+      "name": "ModelArchive",
+      "role": "computed_models",
+      "tier": "isolated",
+      "entry": "https://modelarchive.org",
+      "version": "live",
+      "status": "blocked",
+      "volume_bytes": 2488,
+      "measured": {"http": 200, "body_bytes": 2488, "note": "SPA shell on all probed paths"},
+      "evidence": [],
+      "license": "unchecked",
+      "blocker": "前端应用壳页，/api 与 /entries 均返回同一壳页；检索接口未找到。计算模型不属实验坐标"
+    },
+    {
+      "id": "D59",
+      "name": "RNA Bricks / SCOR",
+      "role": "historical",
+      "tier": "archive_only",
+      "entry": "https://iimcb.genesilico.pl/rnabricks/",
+      "version": "frozen 2020-12",
+      "status": "partial",
+      "volume_bytes": 53728,
+      "measured": {"http": 200, "body_bytes": 53728},
+      "evidence": [],
+      "license": "unchecked",
+      "blocker": "已停更，仅作历史归档；本次不纳入训练"
+    }
+  ],
+  "supplementary_index": {
+    "D02_BGSU_nrlist": {
+      "release": "4.61 (2026-10-15) 为现行版；4.59 (2026-09-30) 已下过，保留作对比",
+      "source": "https://rna.bgsu.edu/rna3dhub/nrlist/download/rna/4.61/{cutoff}/csv",
+      "classes_by_cutoff_4_61": {"1.5A": 164, "2.0A": 610, "2.5A": 1444, "3.0A": 2697, "3.5A": 3657, "4.0A": 4020, "20.0A": 4521, "all": 5233},
+      "chains_by_cutoff_4_61": {"1.5A": 419, "2.0A": 1572, "2.5A": 4795, "3.0A": 11350, "3.5A": 17217, "4.0A": 19702, "20.0A": 22070, "all": 22927},
+      "classes_by_cutoff_4_59": {"1.5A": 163, "2.0A": 608, "2.5A": 1438, "3.0A": 2686, "3.5A": 3638, "4.0A": 4001, "20.0A": 4501, "all": 5211},
+      "evidence": ["raw/bgsu/nrlist_4.61_*.csv", "raw/bgsu/nrlist_4.59_*.csv", "meta/bgsu_classes.tsv", "meta/bgsu_summary.json"],
+      "use": "结构级等价类对照基准，用于验证自建聚类结果",
+      "cross_check": "RNAsolo 官方接口报 bgsu_rep_count=5,187（its own snapshot），BGSU 4.61 all 档实测 5,233，差 46 个，属于各自的筛选口径差异"
+    }
+  }
+}

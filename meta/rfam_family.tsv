@@ -1,0 +1,725 @@
+query	rfam_acc	rfam_name	evalue	hit_len	description
+10JF_C	RF04301	mir-200	1.00e-02	22	mir-200 microRNA precursor family
+11GI_B	RF00684	mir-122	1.20e-01	20	mir-122 microRNA precursor family
+11GJ_B	RF00684	mir-122	1.20e+00	20	mir-122 microRNA precursor family
+11VQ_B	RF00658	mir-21	1.30e-01	21	mir-21 microRNA precursor family
+13FO_T	RF00005	tRNA	1.40e-17	73	tRNA
+17RA_A	RF02359	MS2	1.20e-02	19	Bacteriophage MS2 operator hairpin
+1A1T_B	RF01381	HIV-1_SL3	2.20e-03	14	HIV-1 stem-loop 3 Psi packaging signal
+1A60_A	RF00233	Tymo_tRNA-like	1.20e-06	43	Tymovirus/Pomovirus/Furovirus tRNA-like 3' UTR element
+1AQO_A	RF00037	IRE_I	3.80e-05	20	Iron response element I
+1AUD_B	RF00460	U1A_PIE	3.80e-02	26	U1A polyadenylation inhibition element (PIE)
+1C9S_W	RF01120	sR33	4.30e-01	10	Small nucleolar RNA sR33
+1DZ5_C	RF00460	U1A_PIE	3.50e+00	17	U1A polyadenylation inhibition element (PIE)
+1E8O_E	RF00017	Metazoa_SRP	1.80e-09	46	Metazoan signal recognition particle RNA
+1E95_A	RF01097	RF_site8	6.50e-04	34	Gag/pro ribosomal frameshift site
+1FQZ_A	RF00061	IRES_HCV	9.40e-04	27	Hepatitis C virus internal ribosome entry site
+1G1X_E	RF00177	SSU_rRNA_bacteria	2.20e-01	41	Bacterial small subunit ribosomal RNA
+1G59_B	RF00005	tRNA	1.50e-14	72	tRNA
+1G70_A	RF01539	TB11Cs4H1	8.50e+00	31	Trypanosomatid snoRNA TB11Cs4H1
+1GAX_C	RF00005	tRNA	5.30e-16	72	tRNA
+1HMH_A	RF00008	Hammerhead_3	1.40e-02	31	Hammerhead ribozyme (type III)
+1I9F_A	RF00036	RRE	3.10e-01	32	HIV Rev response element
+1J1U_B	RF00005	tRNA	4.70e-13	73	tRNA
+1J2B_D	RF00005	tRNA	3.40e-13	68	tRNA
+1JTJ_A	RF00175	HIV-1_DIS	3.20e-02	22	Human immunodeficiency virus type 1 dimerisation initiation site
+1JU1_A	RF00175	HIV-1_DIS	1.10e-03	22	Human immunodeficiency virus type 1 dimerisation initiation site
+1KKS_A	RF00032	Histone3	5.90e-05	22	Histone 3' UTR stem-loop
+1KXK_A	RF00029	Intron_gpII	2.10e-09	53	Group II catalytic intron
+1L2X_A	RF01079	RF_site3	2.60e-03	25	Putative RNA-dependent RNA polymerase ribosomal frameshift site
+1L8V_A	RF00028	Intron_gpI	3.00e-09	156	Group I catalytic intron
+1M5K_B	RF00173	Hairpin	6.90e-09	65	Hairpin ribozyme
+1MFK_A	RF01988	SECIS_2	3.20e-03	23	Selenocysteine insertion sequence 2
+1MZP_B	RF02543	LSU_rRNA_eukarya	3.80e-07	55	Eukaryotic large subunit ribosomal RNA
+1N8X_A	RF00175	HIV-1_DIS	4.30e-08	35	Human immunodeficiency virus type 1 dimerisation initiation site
+1NA2_A	RF00024	Telomerase-vert	1.70e-05	25	Vertebrate telomerase RNA
+1NBS_B	RF00011	RNaseP_bact_b	4.70e-41	150	Bacterial RNase P class B
+1NZ1_A	RF00026	U6	2.40e+00	20	U6 spliceosomal RNA
+1P5M_A	RF00061	IRES_HCV	4.80e-09	53	Hepatitis C virus internal ribosome entry site
+1P5N_A	RF00061	IRES_HCV	5.50e-06	30	Hepatitis C virus internal ribosome entry site
+1P5O_A	RF00061	IRES_HCV	1.40e-23	75	Hepatitis C virus internal ribosome entry site
+1P6V_B	RF00023	tmRNA	1.20e-12	44	transfer-messenger RNA
+1PJY_A	RF00480	HIV_FE	8.80e-03	21	HIV Ribosomal frameshift signal
+1R2P_A	RF00029	Intron_gpII	8.80e-08	32	Group II catalytic intron
+1RAW_A	RF01534	TB10Cs4H4	2.10e+00	-31	Trypanosomatid snoRNA TB10Cs4H4
+1RFR_A	RF00386	Entero_5_CRE	1.50e-03	26	Enterovirus 5' cloverleaf cis-acting replication element
+1SM1_9	RF00001	5S_rRNA	5.30e-19	117	5S ribosomal RNA
+1T28_A	RF00220	Rhino_CRE	8.80e-06	33	Human rhinovirus internal cis-acting regulatory element (CRE)
+1TJZ_A	RF01336	CRISPR-DR23	1.70e+00	-14	CRISPR RNA direct repeat element
+1U0B_A	RF00005	tRNA	9.40e-12	71	tRNA
+1U6B_B	RF00028	Intron_gpI	1.90e-06	189	Group I catalytic intron
+1U6P_B	RF00374	Gammaretro_CES	3.80e-19	101	Gammaretrovirus core encapsidation signal
+1U9S_A	RF00010	RNaseP_bact_a	2.20e-37	155	Bacterial RNase P class A
+1VC5_B	RF00094	HDV_ribozyme	2.00e-06	69	Hepatitis delta virus ribozyme
+1X8W_C	RF00028	Intron_gpI	8.80e-27	231	Group I catalytic intron
+1XHP_A	RF00026	U6	2.60e-03	30	U6 spliceosomal RNA
+1XJR_A	RF00164	s2m	1.80e-16	43	Coronavirus 3' stem-loop II-like motif (s2m)
+1XOK_A	RF00252	Alfamo_CPB	6.90e-03	27	Alfalfa mosaic virus coat protein binding (CPB) RNA
+1Y0Q_A	RF00028	Intron_gpI	2.00e-20	190	Group I catalytic intron
+1Y90_A	RF00175	HIV-1_DIS	2.10e-02	19	Human immunodeficiency virus type 1 dimerisation initiation site
+1YMO_A	RF00024	Telomerase-vert	2.70e-05	25	Vertebrate telomerase RNA
+1YSV_A	RF02095	mir-2985	8.90e-03	25	mir-2985 microRNA precursor family
+1ZC5_A	RF00480	HIV_FE	1.20e-06	41	HIV Ribosomal frameshift signal
+1ZCI_A	RF00175	HIV-1_DIS	6.30e-03	19	Human immunodeficiency virus type 1 dimerisation initiation site
+21CB_B	RF00639	mir-515	4.90e-08	55	mir-515 microRNA precursor family
+21WJ_B	RF03751	mir-7445	9.90e+00	37	mir-7445 microRNA precursor family
+22ET_N	RF00170	msr	4.30e-08	38	Retron msr RNA
+23WI_5	RF02541	LSU_rRNA_bacteria	0.00e+00	2014	Bacterial large subunit ribosomal RNA
+23WI_A	RF02541	LSU_rRNA_bacteria	1.70e-270	886	Bacterial large subunit ribosomal RNA
+28JW_4	RF02541	LSU_rRNA_bacteria	5.10e-66	272	Bacterial large subunit ribosomal RNA
+28JW_5	RF02541	LSU_rRNA_bacteria	4.00e-04	46	Bacterial large subunit ribosomal RNA
+28SP_A	RF00169	Bacteria_small_SRP	1.60e-05	26	Bacterial small signal recognition particle RNA
+2A43_A	RF01079	RF_site3	7.80e-05	25	Putative RNA-dependent RNA polymerase ribosomal frameshift site
+2AKE_B	RF00005	tRNA	5.60e-16	72	tRNA
+2BH2_C	RF02541	LSU_rRNA_bacteria	2.00e-05	29	Bacterial large subunit ribosomal RNA
+2CKY_A	RF00059	TPP	2.80e-12	68	TPP riboswitch aptamer (THI element)
+2CZJ_B	RF00023	tmRNA	2.70e-20	62	transfer-messenger RNA
+2D6F_E	RF00005	tRNA	3.30e-13	72	tRNA
+2DR5_B	RF01850	beta_tmRNA	2.80e-03	25	Betaproteobacteria transfer-messenger RNA
+2DU3_D	RF00005	tRNA	1.90e-10	71	tRNA
+2ES5_A	RF00161	nos_TCE	7.30e-02	19	Nanos 3' UTR translation control element
+2F4X_A	RF00175	HIV-1_DIS	2.40e-03	21	Human immunodeficiency virus type 1 dimerisation initiation site
+2F88_A	RF00029	Intron_gpII	3.40e-07	32	Group II catalytic intron
+2FDT_A	RF00436	UnaL2	1.50e-07	31	UnaL2 LINE 3' element
+2GM0_A	RF00175	HIV-1_DIS	9.00e-08	31	Human immunodeficiency virus type 1 dimerisation initiation site
+2HUA_A	RF01790	htlv_FSE	2.00e+00	-36	ribosomal frameshift site
+2IL9_M	RF00458	IRES_Cripavirus	2.10e-13	128	Cripavirus internal ribosome entry site (IRES)
+2IXY_A	RF01047	HBV_epsilon	1.40e-05	25	HBV RNA encapsidation signal epsilon
+2IY5_T	RF00005	tRNA	1.10e-14	72	tRNA
+2JTP_A	RF01835	HIV_FS2	1.50e-08	30	ribosomal frameshift site
+2K5Z_A	RF01313	AHBV_epsilon	2.40e-05	27	Avian HBV RNA encapsidation signal epsilon
+2KMJ_A	RF00250	mir-TAR	1.60e+00	24	Trans-activation response element (TAR)
+2KRL_A	RF00500	TCV_H5	2.00e-17	45	Turnip crinkle virus (TCV) repressor of minus strand synthesis H5
+2KUU_A	RF00207	K10_TLS	1.30e-16	47	K10 transport/localisation element (TLS)
+2KUV_A	RF00207	K10_TLS	3.30e-17	47	K10 transport/localisation element (TLS)
+2KX8_A	RF00100	7SK	1.50e-08	36	7SK RNA
+2L1F_A	RF00374	Gammaretro_CES	3.60e-12	65	Gammaretrovirus core encapsidation signal
+2L2J_A	RF02095	mir-2985	3.30e-05	40	mir-2985 microRNA precursor family
+2L3C_B	RF02095	mir-2985	3.70e-04	33	mir-2985 microRNA precursor family
+2L3J_B	RF02095	mir-2985	5.50e-22	69	mir-2985 microRNA precursor family
+2LC8_A	RF01073	GP_knot1	3.00e-16	55	Gag/pol translational readthrough site
+2LDT_A	RF00177	SSU_rRNA_bacteria	6.70e-03	27	Bacterial small subunit ribosomal RNA
+2LKR_A	RF00026	U6	4.60e-10	72	U6 spliceosomal RNA
+2M57_A	RF00029	Intron_gpII	1.80e-02	34	Group II catalytic intron
+2M5U_A	RF00622	CPEB3_ribozyme	1.10e-01	18	Mammalian CPEB3 ribozyme
+2MF0_G	RF00166	PrrB_RsmZ	4.00e-14	71	PrrB/RsmZ RNA family
+2MIY_A	RF01054	preQ1-II	6.80e-11	58	PreQ1-II (pre queuosine) riboswitch aptamer
+2MS0_B	RF00005	tRNA	1.10e-08	69	tRNA
+2N1Q_A	RF01381	HIV-1_SL3	1.80e-10	23	HIV-1 stem-loop 3 Psi packaging signal
+2N7M_X	RF00015	U4	7.30e-11	90	U4 spliceosomal RNA
+2NC1_A	RF00210	IRES_Picorna_2	5.50e-05	65	Aphthovirus internal ribosome entry site (IRES)
+2NR0_F	RF00005	tRNA	5.20e-07	71	tRNA
+2OZB_C	RF00015	U4	2.60e-04	32	U4 spliceosomal RNA
+2PXU_B	RF00169	Bacteria_small_SRP	4.20e-06	43	Bacterial small signal recognition particle RNA
+2QBZ_X	RF00380	Magnesium	8.90e-33	150	M-box riboswitch aptamer (ykoK leader)
+2QUW_B	RF00008	Hammerhead_3	2.00e-04	47	Hammerhead ribozyme (type III)
+2QWY_A	RF00521	SAM_alpha	2.60e-05	50	Alpha-proteobacteria SAM riboswitch aptamer
+2V0G_B	RF00005	tRNA	1.20e-09	73	tRNA
+2XXA_F	RF00169	Bacteria_small_SRP	7.50e-16	99	Bacterial small signal recognition particle RNA
+2ZUE_B	RF00005	tRNA	8.80e-15	75	tRNA
+2ZZM_B	RF01684	mascRNA-menRNA	3.50e-03	34	MALAT1-associated small cytoplasmic RNA/MEN beta RNA
+30GA_1	RF01317	CRISPR-DR4	4.30e-02	20	CRISPR RNA direct repeat element
+36HT_D	RF01081	SBWMV1_UPD-PKe	7.10e+00	25	Pseudoknot of upstream pseudoknot domain (UPD) of the 3'UTR
+3A6P_E	RF00131	mir-30	1.50e-01	23	mir-30 microRNA precursor family
+3ADD_D	RF01852	tRNA-Sec	2.70e-11	86	Selenocysteine transfer RNA
+3AM1_B	RF01852	tRNA-Sec	1.40e-08	79	Selenocysteine transfer RNA
+3CUL_C	RF01684	mascRNA-menRNA	3.00e-01	34	MALAT1-associated small cytoplasmic RNA/MEN beta RNA
+3D0U_A	RF00168	Lysine	6.90e-25	160	Lysine riboswitch aptamer
+3DH3_E	RF02541	LSU_rRNA_bacteria	6.30e-01	21	Bacterial large subunit ribosomal RNA
+3E5C_A	RF01767	SAM-III	1.10e-09	51	SAM-III riboswitch aptamer (SMK box)
+3EOH_A	RF02001	group-II-D1D4-3	1.10e-30	171	Group II catalytic intron D1-D4-3
+3EPL_E	RF00005	tRNA	7.80e-10	69	tRNA
+3FU2_A	RF00522	PreQ1	1.90e-04	30	PreQ1 (pre queuosine) riboswitch aptamer
+3G9C_P	RF00234	glmS	4.10e-21	139	glmS glucosamine-6-phosphate activated ribozyme aptamer
+3GS5_C	RF00173	Hairpin	7.10e-06	35	Hairpin ribozyme
+3HJW_D	RF02796	Pab160	1.20e-10	56	Pab160 RNA
+3HJY_D	RF02796	Pab160	6.20e-01	22	Pab160 RNA
+3HL2_E	RF01852	tRNA-Sec	5.70e-13	79	Selenocysteine transfer RNA
+3I2S_B	RF00173	Hairpin	1.40e+00	19	Hairpin ribozyme
+3IRW_R	RF03167	c-di-GMP-I-GGC	3.20e-17	88	c-di-GMP-I-GGC riboswitch aptamer
+3IVN_A	RF00167	Purine	4.20e-11	65	Purine riboswitch aptamer
+3J7A_7	RF00005	tRNA	2.90e-13	73	tRNA
+3J81_1	RF00005	tRNA	3.30e-12	71	tRNA
+3JA1_S1	RF00521	SAM_alpha	7.20e-01	35	Alpha-proteobacteria SAM riboswitch aptamer
+3JBV_W	RF00005	tRNA	1.50e-10	72	tRNA
+3JCS_4	RF02543	LSU_rRNA_eukarya	5.60e-17	146	Eukaryotic large subunit ribosomal RNA
+3JCS_7	RF00002	5_8S_rRNA	1.70e-22	152	5.8S ribosomal RNA
+3KFU_M	RF00005	tRNA	1.80e-14	71	tRNA
+3KTW_D	RF01857	Archaea_SRP	1.90e-16	94	Archaeal signal recognition particle RNA
+3MOJ_A	RF02541	LSU_rRNA_bacteria	8.80e-19	69	Bacterial large subunit ribosomal RNA
+3NDB_M	RF01857	Archaea_SRP	2.80e-30	134	Archaeal signal recognition particle RNA
+3NKB_B	RF00094	HDV_ribozyme	1.40e-04	60	Hepatitis delta virus ribozyme
+3NPQ_B	RF01057	SAH	4.70e-05	49	SAH (S-adenosyl-L-homocysteine) riboswitch aptamer
+3OWZ_B	RF00504	Glycine	4.10e-12	79	Glycine riboswitch aptamer
+3P49_A	RF03166	glycine-GGAnGA	1.40e-12	169	glycine-GGAnGA riboswitch aptamer
+3PHP_A	RF00233	Tymo_tRNA-like	5.40e-03	22	Tymovirus/Pomovirus/Furovirus tRNA-like 3' UTR element
+3Q1Q_B	RF00010	RNaseP_bact_a	9.20e-89	347	Bacterial RNase P class A
+3Q3Z_A	RF01786	c-di-GMP-II	2.40e-15	72	Cyclic di-GMP-II riboswitch aptamer
+3R4F_A	RF00044	Phage_pRNA	2.10e-11	64	3WJ core of Phi29 Bacteriophage pRNA
+3R9W_B	RF01960	SSU_rRNA_eukarya	3.70e-06	32	Eukaryotic small subunit ribosomal RNA
+3RKF_A	RF00167	Purine	1.60e-10	67	Purine riboswitch aptamer
+3SIU_C	RF00618	U4atac	1.90e-02	27	U4atac minor spliceosomal RNA
+3SKL_A	RF01510	2dG-I	2.20e-20	64	2dG-I riboswitch aptamer (M. florum)
+3SN2_B	RF02253	IRE_II	1.10e-05	27	Iron response element II
+3SNP_C	RF00037	IRE_I	5.00e-07	29	Iron response element I
+3SUH_X	RF01831	THF	2.50e-24	99	THF (Tetrahydrofolate) riboswitch aptamer
+3T4B_A	RF00061	IRES_HCV	5.00e-13	83	Hepatitis C virus internal ribosome entry site
+3U4M_B	RF02541	LSU_rRNA_bacteria	2.90e-18	80	Bacterial large subunit ribosomal RNA
+3VJR_B	RF01850	beta_tmRNA	5.10e-04	28	Betaproteobacteria transfer-messenger RNA
+3VRS_A	RF01734	Fluoride	2.60e-09	50	Fluoride riboswitch aptamer (crcB RNA motif)
+3W3S_B	RF01852	tRNA-Sec	1.40e-15	95	Selenocysteine transfer RNA
+3WQZ_C	RF00005	tRNA	2.80e-17	72	tRNA
+3ZD4_A	RF00163	Hammerhead_1	1.40e-05	33	Hammerhead ribozyme (type I)
+44BB_10	RF01077	TLS-PK2	1.20e-20	66	Pseudoknot of tRNA-like structure
+4A4T_A	RF02353	BjrC68	2.50e-02	-19	Bradyrhizobiaceae sRNA BjrC68
+4ATO_G	RF02519	ToxI	7.80e-09	33	ToxI antitoxin
+4BY9_A	RF01133	sR3	2.10e-05	63	Small nucleolar RNA sR3
+4C4W_D	RF00003	U1	4.20e+00	19	U1 spliceosomal RNA
+4FRG_B	RF01689	AdoCbl-II	5.70e-16	83	AdoCbl-II (Cobalamin/B12) riboswitch aptamer
+4GXY_A	RF00174	Cobalamin	3.00e-30	159	Cobalamin riboswitch aptamer
+4JGN_E	RF03336	mir-1322	2.30e+00	18	mir-1322 microRNA precursor family
+4JXX_B	RF00005	tRNA	5.40e-10	68	tRNA
+4KQY_A	RF00162	SAM	2.30e-25	117	SAM riboswitch aptamer (S box leader)
+4KR2_C	RF00005	tRNA	5.10e-10	68	tRNA
+4L81_A	RF01725	SAM-I-IV	3.60e-06	96	SAM-I/IV (S-adenosyl methionine) riboswitch aptamer
+4LVV_A	RF01831	THF	1.40e-15	89	THF (Tetrahydrofolate) riboswitch aptamer
+4MEH_B	RF00234	glmS	1.10e-14	120	glmS glucosamine-6-phosphate activated ribozyme aptamer
+4MGN_A	RF02447	SpR19_sRNA	9.50e+00	65	Streptococcus sRNA SpR19
+4N0T_B	RF00026	U6	3.00e-07	64	U6 spliceosomal RNA
+4NYG_A	RF00059	TPP	1.80e-09	73	TPP riboswitch aptamer (THI element)
+4O26_E	RF00024	Telomerase-vert	9.20e-02	34	Vertebrate telomerase RNA
+4P3E_A	RF00017	Metazoa_SRP	3.10e-33	122	Metazoan signal recognition particle RNA
+4P5J_A	RF00233	Tymo_tRNA-like	1.40e-19	84	Tymovirus/Pomovirus/Furovirus tRNA-like 3' UTR element
+4P9R_A	RF01807	GIR1	1.20e-19	161	GIR1 branching ribozyme
+4PCJ_A	RF01051	c-di-GMP-I	1.90e+00	27	c-di-GMP-I riboswitch aptamer
+4PJO_3	RF00003	U1	4.20e-04	45	U1 spliceosomal RNA
+4PKD_V	RF00003	U1	2.10e-04	48	U1 spliceosomal RNA
+4PLX_A	RF04356	Plastid-ndhA-ndhB-1	1.40e+00	18	Plastid-ndhA-ndhB-1 group II-D5 intron
+4PQV_A	RF01415	Flavivirus_SLIV	5.80e-11	66	Flavivirus 3'UTR stem loop IV
+4PUO_T	RF00375	HIV_PBS	6.30e+00	19	HIV primer binding site (PBS)
+4QJD_B	RF03160	twister-P1	1.80e-08	46	type-P1 twister ribozyme
+4QJH_B	RF03154	twister-P3	5.20e-05	46	type-P3 twister ribozyme
+4QKA_A	RF00379	c-di-AMP	1.60e-23	119	c-di-AMP riboswitch aptamer (ydaO/yuaA leader)
+4QLM_A	RF00379	c-di-AMP	1.50e-18	110	c-di-AMP riboswitch aptamer (ydaO/yuaA leader)
+4R0D_A	RF00029	Intron_gpII	1.60e-14	74	Group II catalytic intron
+4RDX_C	RF00005	tRNA	1.20e-13	73	tRNA
+4RGE_C	RF03160	twister-P1	3.60e-04	53	type-P1 twister ribozyme
+4RUM_A	RF02683	NiCo	9.40e-16	85	NiCo (Nickel/Cobalt) riboswitch aptamer
+4TZZ_C	RF00230	T-box	3.20e-07	99	T-box leader
+4UYJ_R	RF01857	Archaea_SRP	5.40e-17	106	Archaeal signal recognition particle RNA
+4V2S_Q	RF00505	RydC	1.60e-12	56	RydC RNA
+4V6F_B1	RF02416	TCV_H4	4.10e+00	-19	Turnip crinkle virus 3'UTR
+4V9I_AY	RF01852	tRNA-Sec	2.00e-02	74	Selenocysteine transfer RNA
+4V9J_AW	RF00005	tRNA	3.10e-14	73	tRNA
+4WFM_A	RF01854	Bacteria_large_SRP	4.30e-15	99	Bacterial large signal recognition particle RNA
+4WSM_4L	RF02416	TCV_H4	2.50e+00	-18	Turnip crinkle virus 3'UTR
+4WZJ_V	RF00015	U4	6.20e-03	52	U4 spliceosomal RNA
+4X4O_B	RF01852	tRNA-Sec	6.30e-01	32	Selenocysteine transfer RNA
+4X4V_B	RF01684	mascRNA-menRNA	2.90e-02	30	MALAT1-associated small cytoplasmic RNA/MEN beta RNA
+4Y1M_B	RF00080	Manganese	3.80e-10	88	Manganese Mn2+ riboswitch aptamer (yybP-ykoY)
+4Y1N_A	RF02001	group-II-D1D4-3	3.00e-21	159	Group II catalytic intron D1-D4-3
+4YAZ_A	RF03167	c-di-GMP-I-GGC	1.90e-12	76	c-di-GMP-I-GGC riboswitch aptamer
+4YCO_E	RF00005	tRNA	8.80e-11	66	tRNA
+4YCP_B	RF00005	tRNA	7.10e-05	59	tRNA
+4YHW_E	RF00026	U6	9.70e-02	26	U6 spliceosomal RNA
+4YVK_C	RF00005	tRNA	1.30e-14	71	tRNA
+4YYE_C	RF00005	tRNA	7.30e-16	73	tRNA
+4ZNP_B	RF01750	ZMP-ZTP	4.90e-06	66	ZMP/ZTP riboswitch aptamer (pfl RNA motif)
+4ZT0_B	RF02348	tracrRNA	1.10e-07	61	Trans-activating crRNA
+5A2Q_3	RF00061	IRES_HCV	2.90e-94	257	Hepatitis C virus internal ribosome entry site
+5AH5_C	RF00005	tRNA	6.20e-09	77	tRNA
+5AOX_F	RF00017	Metazoa_SRP	7.30e-11	83	Metazoan signal recognition particle RNA
+5B2O_B	RF02747	FtrA	1.00e-05	63	Francisella sRNA A
+5BJP_E	RF00502	TCV_Pr	3.80e+00	-16	Turnip crinkle virus (TCV) core promoter hairpin (Pr)
+5BTM_A	RF00606	SNORD93	2.30e+00	35	Small nucleolar RNA SNORD93
+5D5L_A	RF01054	preQ1-II	5.20e-05	69	PreQ1-II (pre queuosine) riboswitch aptamer
+5D6G_0	RF02540	LSU_rRNA_archaea	1.70e-23	74	Archaeal large subunit ribosomal RNA
+5DDO_A	RF00003	U1	3.90e+00	33	U1 spliceosomal RNA
+5DE5_A	RF02339	GlsR17_miR2	1.10e+00	32	Giardia snoRNA GlsR17
+5DI2_A	RF00008	Hammerhead_3	6.80e-08	48	Hammerhead ribozyme (type III)
+5E54_A	RF00167	Purine	6.10e-10	59	Purine riboswitch aptamer
+5FJ4_D	RF00003	U1	5.00e+00	21	U1 spliceosomal RNA
+5FK4_A	RF00162	SAM	3.00e-20	93	SAM riboswitch aptamer (S box leader)
+5G2X_A	RF00029	Intron_gpII	1.40e-09	98	Group II catalytic intron
+5GAP_U	RF00020	U5	3.10e-01	19	U5 spliceosomal RNA
+5GAP_V	RF00015	U4	1.10e-15	67	U4 spliceosomal RNA
+5GIP_G	RF00095	snoPyro_CD	9.50e-01	24	Pyrococcus C/D box small nucleolar RNA
+5GM6_L	RF00004	U2	8.10e-17	62	U2 spliceosomal RNA
+5H1S_B	RF00001	5S_rRNA	2.50e-12	116	5S ribosomal RNA
+5HR6_D	RF00005	tRNA	9.30e-09	66	tRNA
+5KH8_A	RF01734	Fluoride	2.20e-10	46	Fluoride riboswitch aptamer (crcB RNA motif)
+5KX9_X	RF00050	FMN	8.70e-09	49	FMN riboswitch aptamer (RFN element)
+5LZA_x	RF01988	SECIS_2	1.20e-06	36	Selenocysteine insertion sequence 2
+5LZD_y	RF01852	tRNA-Sec	7.80e-16	91	Selenocysteine transfer RNA
+5ML7_A	RF02541	LSU_rRNA_bacteria	2.40e-10	94	Bacterial large subunit ribosomal RNA
+5MLC_C	RF02541	LSU_rRNA_bacteria	3.00e-12	93	Bacterial large subunit ribosomal RNA
+5MWI_A	RF01504	Afu_254	1.80e+00	25	A. fumigatus sRNA Afu_254
+5NDJ_Y1	RF02416	TCV_H4	3.40e+00	-19	Turnip crinkle virus 3'UTR
+5NZ6_A	RF01763	Guanidine-III	2.90e-09	39	Guanidine-III riboswitch aptamer (yKKC-III)
+5O6U_A	RF01317	CRISPR-DR4	2.40e-05	20	CRISPR RNA direct repeat element
+5T5H_A	RF02543	LSU_rRNA_eukarya	1.40e-171	1278	Eukaryotic large subunit ribosomal RNA
+5T5H_B	RF02543	LSU_rRNA_eukarya	2.20e-182	941	Eukaryotic large subunit ribosomal RNA
+5T5H_D	RF00001	5S_rRNA	1.80e-11	114	5S ribosomal RNA
+5T5H_E	RF02925	6A	2.90e+00	-28	6A RNA
+5T83_A	RF00442	Guanidine-I	1.50e-14	89	Guanidine-I riboswitch aptamer
+5TCU_A	RF00177	SSU_rRNA_bacteria	0.00e+00	1457	Bacterial small subunit ribosomal RNA
+5U33_B	RF04341	Plastid-psbJ-5	4.60e-02	-52	Plastid-psbJ-5 3UTR RNA
+5U3G_B	RF00442	Guanidine-I	2.10e-12	84	Guanidine-I riboswitch aptamer
+5UF3_A	RF02359	MS2	1.60e-03	19	Bacteriophage MS2 operator hairpin
+5UNE_A	RF00635	HAR1A	1.80e-06	43	Highly accelerated region 1A/1B
+5UQ7_x	RF00382	DnaX	7.00e-09	36	DnaX ribosomal frameshifting element
+5UZT_A	RF00658	mir-21	2.30e-05	30	mir-21 microRNA precursor family
+5VT0_R	RF00013	6S	7.90e-11	91	6S / SsrS RNA
+5WQ1_A	RF00014	DsrA	9.90e-02	19	DsrA RNA
+5WT1_C	RF00005	tRNA	3.30e-11	67	tRNA
+5WWS_D	RF00005	tRNA	3.90e-10	68	tRNA
+5XWP_C	RF01323	CRISPR-DR10	2.70e+00	29	CRISPR RNA direct repeat element
+5XXB_3	RF00001	5S_rRNA	3.40e-22	118	5S ribosomal RNA
+5XY3_3	RF00001	5S_rRNA	4.60e-13	115	5S ribosomal RNA
+5XY3_4	RF00002	5_8S_rRNA	8.70e-23	150	5.8S ribosomal RNA
+5XYI_2	RF01960	SSU_rRNA_eukarya	0.00e+00	1490	Eukaryotic small subunit ribosomal RNA
+5Y58_X	RF01050	Sacc_telomerase	7.70e-04	25	Saccharomyces telomerase
+5Y85_B	RF02681	Twister-sister	4.40e-07	50	Twister_sister_ribozyme
+6AGB_A	RF00009	RNaseP_nuc	7.80e-25	358	Nuclear RNase P
+6AHD_I	RF00015	U4	1.60e-25	133	U4 spliceosomal RNA
+6AHR_A	RF00009	RNaseP_nuc	2.30e-82	333	Nuclear RNase P
+6BG9_A	RF00175	HIV-1_DIS	1.50e-13	40	Human immunodeficiency virus type 1 dimerisation initiation site
+6C27_A	RF01767	SAM-III	1.10e-03	44	SAM-III riboswitch aptamer (SMK box)
+6C63_C	RF03493	mir-1281	4.70e+00	-24	mir-1281 microRNA precursor family
+6CC3_B	RF00080	Manganese	4.60e-13	92	Manganese Mn2+ riboswitch aptamer (yybP-ykoY)
+6CK4_A	RF00442	Guanidine-I	1.40e-09	90	Guanidine-I riboswitch aptamer
+6CMN_D	RF00250	mir-TAR	8.20e-06	25	Trans-activation response element (TAR)
+6CU1_A	RF02553	YrlA	3.00e-14	79	Y RNA-like
+6D3P_A	RF04326	PV_xrRNA_class3	8.00e-01	44	Exoribonuclease-resistant RNA (xrRNA) plant-infecting virus (class 3)
+6DDD_2	RF00001	5S_rRNA	1.60e-14	102	5S ribosomal RNA
+6DLQ_A	RF00442	Guanidine-I	2.00e-11	98	Guanidine-I riboswitch aptamer
+6DMC_A	RF00442	Guanidine-I	1.50e-04	96	Guanidine-I riboswitch aptamer
+6DN2_Y	RF00050	FMN	1.10e-10	53	FMN riboswitch aptamer (RFN element)
+6DU4_B	RF02260	MAT2A_A	1.00e-05	27	MAT2A 3'UTR stem loop A
+6DU5_B	RF02265	MAT2A_F	1.10e-04	24	MAT2A 3'UTR stem loop F
+6EXN_5	RF00020	U5	1.30e-06	117	U5 spliceosomal RNA
+6FZ0_A	RF01826	SAM_V	7.70e-08	44	SAM-V (S-adenosyl methionine) riboswitch aptamer
+6G7Z_A	RF01807	GIR1	3.20e-11	108	GIR1 branching ribozyme
+6G7Z_B	RF01807	GIR1	8.70e-04	54	GIR1 branching ribozyme
+6G90_2	RF00004	U2	4.50e-06	143	U2 spliceosomal RNA
+6GSL_3K	RF00005	tRNA	5.50e-14	70	tRNA
+6HAG_A	RF01727	SAM-SAH	1.00e-11	43	SAM/SAH riboswitch aptamer
+6HCF_w3	RF01164	SNORD107	3.60e+00	22	Small nucleolar RNA SNORD107
+6HIZ_CA	RF02545	SSU_trypano_mito	1.00e-17	143	Trypanosomatid mitochondrial small subunit ribosomal RNA
+6HYK_A	RF01136	sR28	6.50e-02	24	Small nucleolar RNA sR28
+6ICZ_B	RF00020	U5	1.30e-15	97	U5 spliceosomal RNA
+6IV6_G	RF00530	snoMe28S-Cm2645	7.20e+00	23	Small nucleolar RNA Me28S-Cm2645
+6JQ6_U	RF02678	Hatchet	2.70e-18	80	Hatchet ribozyme
+6LAU_A	RF02885	SAM_VI	4.70e-08	51	SAM-VI (S-adenosyl methionine) riboswitch aptamer
+6LNB_M	RF01836	weev_FSE	5.30e+00	32	ribosomal frameshift site
+6LT7_C	RF00030	RNase_MRP	3.80e-06	46	RNase MRP
+6MDZ_E	RF00684	mir-122	3.80e-01	-21	mir-122 microRNA precursor family
+6MFR_E	RF00684	mir-122	5.10e+00	-18	mir-122 microRNA precursor family
+6MJ0_A	RF00233	Tymo_tRNA-like	3.90e-15	79	Tymovirus/Pomovirus/Furovirus tRNA-like 3' UTR element
+6MWN_A	RF00228	IRES_HepA	5.90e-31	91	Hepatitis A virus internal ribosome entry site (IRES)
+6N2V_A	RF00080	Manganese	7.20e-09	81	Manganese Mn2+ riboswitch aptamer (yybP-ykoY)
+6N7R_R	RF00488	U1_yeast	1.50e-137	556	Yeast U1 spliceosomal RNA
+6NU2_B	RF00005	tRNA	9.30e-02	54	tRNA
+6O0X_B	RF02348	tracrRNA	1.40e-11	77	Trans-activating crRNA
+6O1O_M	RF01068	Guanidine-II	1.70e+00	17	Guanidine-II riboswitch aptamer (mini-ykkC)
+6OL3_C	RF00102	VA	4.40e-10	111	VA RNA
+6OM6_5	RF00005	tRNA	1.10e-13	73	tRNA
+6OPE_QY	RF00005	tRNA	1.20e-13	72	tRNA
+6P2H_A	RF03165	2dG-II	2.00e-12	65	2dG-II purine riboswitch aptamer
+6PMO_A	RF00230	T-box	2.20e-03	57	T-box leader
+6PRV_A	RF02541	LSU_rRNA_bacteria	3.90e-18	57	Bacterial large subunit ribosomal RNA
+6Q95_4	RF00023	tmRNA	2.10e-58	319	transfer-messenger RNA
+6Q97_4	RF00023	tmRNA	1.20e-101	334	transfer-messenger RNA
+6QDW_v	RF00005	tRNA	9.50e-15	72	tRNA
+6QN3_A	RF01704	Glutamine-II	5.20e-08	49	Glutamine-II riboswitch aptamer
+6QX9_1	RF00003	U1	3.30e-48	164	U1 spliceosomal RNA
+6R47_A	RF02679	Pistol	2.20e-02	49	Pistol ribozyme
+6R6G_2	RF00005	tRNA	2.60e-08	71	tRNA
+6R6G_AF	RF00017	Metazoa_SRP	1.00e-43	206	Metazoan signal recognition particle RNA
+6RFL_U	RF00005	tRNA	2.80e-11	63	tRNA
+6RM3_S60	RF02542	SSU_rRNA_microsporidia	0.00e+00	1230	Microsporidia small subunit ribosomal RNA
+6RXU_C2	RF01846	Fungi_U3	1.50e-35	230	Fungal small nucleolar RNA U3
+6SGA_CA	RF02545	SSU_trypano_mito	1.50e-69	457	Trypanosomatid mitochondrial small subunit ribosomal RNA
+6SWD_2	RF01959	SSU_rRNA_archaea	3.10e-276	1044	Archaeal small subunit ribosomal RNA
+6SWE_2	RF01959	SSU_rRNA_archaea	4.50e-126	464	Archaeal small subunit ribosomal RNA
+6SXO_L8	RF00002	5_8S_rRNA	5.30e-10	58	5.8S ribosomal RNA
+6U8D_A	RF00061	IRES_HCV	9.00e-13	67	Hepatitis C virus internal ribosome entry site
+6UES_A	RF00634	SAM-IV	5.00e-24	119	SAM (S-adenosyl methionine) riboswitch aptamer
+6UFG_A	RF00230	T-box	3.20e-04	159	T-box leader
+6UFJ_A	RF02679	Pistol	1.50e-05	49	Pistol ribozyme
+6UFM_A	RF00005	tRNA	1.70e-17	74	tRNA
+6UFM_B	RF02356	BjrC1505	2.40e-01	-62	Alphaproteobacterial sRNA BjrC1505
+6UGI_A	RF00023	tmRNA	3.40e-02	15	transfer-messenger RNA
+6V4X_Z	RF00066	U7	4.40e-06	27	U7 small nuclear RNA
+6VAR_A	RF01047	HBV_epsilon	1.30e-19	60	HBV RNA encapsidation signal epsilon
+6VMY_A	RF00174	Cobalamin	8.60e-19	129	Cobalamin riboswitch aptamer
+6VRC_B	RF03803	MIR1886	5.50e-02	-37	MIR1886 microRNA precursor family
+6VU1_A	RF00250	mir-TAR	2.30e-03	32	Trans-activation response element (TAR)
+6VVJ_A	RF00250	mir-TAR	1.90e-14	57	Trans-activation response element (TAR)
+6VZC_A	RF01330	CRISPR-DR16	2.20e+00	17	CRISPR RNA direct repeat element
+6W2S_0	RF02584	KRAS_3UTR	3.10e+00	37	KRAS 3' UTR cis-regulatory element
+6W7W_2	RF00177	SSU_rRNA_bacteria	1.10e-252	871	Bacterial small subunit ribosomal RNA
+6WJS_X	RF00050	FMN	7.00e-27	106	FMN riboswitch aptamer (RFN element)
+6XYW_3	RF00001	5S_rRNA	7.70e-06	113	5S ribosomal RNA
+6YAL_2	RF01960	SSU_rRNA_eukarya	0.00e+00	1740	Eukaryotic small subunit ribosomal RNA
+6YLG_3	RF00001	5S_rRNA	3.70e-17	117	5S ribosomal RNA
+6YMJ_C	RF01727	SAM-SAH	2.20e-04	18	SAM/SAH riboswitch aptamer
+6YPU_4	RF00177	SSU_rRNA_bacteria	2.30e-39	146	Bacterial small subunit ribosomal RNA
+6YS5_3	RF00177	SSU_rRNA_bacteria	8.50e-153	453	Bacterial small subunit ribosomal RNA
+6Z1P_Aa	RF02541	LSU_rRNA_bacteria	6.60e-09	53	Bacterial large subunit ribosomal RNA
+6Z1P_Ba	RF00177	SSU_rRNA_bacteria	3.00e-09	183	Bacterial small subunit ribosomal RNA
+6Z1P_Bb	RF00177	SSU_rRNA_bacteria	2.80e-168	1382	Bacterial small subunit ribosomal RNA
+6ZJ3_LA	RF00002	5_8S_rRNA	3.60e-12	160	5.8S ribosomal RNA
+6ZJ3_LC	RF02543	LSU_rRNA_eukarya	1.70e-18	350	Eukaryotic large subunit ribosomal RNA
+6ZJ3_LD	RF02139	HOXA11-AS1_3	2.30e-01	-46	HOXA11 antisense RNA 1 conserved region 3
+6ZJ3_LN	RF02136	HTT-AS1_3	8.30e-01	57	HTT antisense RNA 1 conserved region 3
+6ZJ3_LO	RF00001	5S_rRNA	1.60e-25	119	5S ribosomal RNA
+6ZMO_CB	RF00005	tRNA	3.90e-13	84	tRNA
+6ZOL_2	RF01960	SSU_rRNA_eukarya	1.10e-137	472	Eukaryotic small subunit ribosomal RNA
+6ZQB_D4	RF01846	Fungi_U3	1.20e-39	175	Fungal small nucleolar RNA U3
+6ZU5_L70	RF00001	5S_rRNA	5.60e-24	119	5S ribosomal RNA
+6ZVI_f	RF00519	suhB	9.60e+00	15	Makes More Granules Regulator RNA (mmgR)
+6ZVK_E1	RF00458	IRES_Cripavirus	2.10e-01	64	Cripavirus internal ribosome entry site (IRES)
+6ZYM_2	RF00004	U2	1.40e-05	27	U2 spliceosomal RNA
+7ABF_5	RF00020	U5	5.10e-11	58	U5 spliceosomal RNA
+7ANE_1	RF02546	LSU_trypano_mito	8.60e-121	486	Trypanosomatid mitochondrial large subunit ribosomal RNA
+7ANE_2	RF02545	SSU_trypano_mito	6.80e-124	604	Trypanosomatid mitochondrial small subunit ribosomal RNA
+7AOI_AA	RF02546	LSU_trypano_mito	4.20e-60	299	Trypanosomatid mitochondrial large subunit ribosomal RNA
+7B0Y_P	RF02651	SorY	3.30e+00	-34	Singlet oxygen resistance RNA Y
+7BHP_B	RF00502	TCV_Pr	4.20e+00	21	Turnip crinkle virus (TCV) core promoter hairpin (Pr)
+7C7A_A	RF00030	RNase_MRP	8.10e-21	325	RNase MRP
+7D7V_A	RF03013	nadA	3.50e-10	56	nadA riboswitch
+7D7W_A	RF03013	nadA	2.20e-11	51	nadA riboswitch
+7D81_A	RF03013	nadA	2.60e-13	50	nadA riboswitch
+7DMQ_B	RF01323	CRISPR-DR10	3.30e+00	26	CRISPR RNA direct repeat element
+7DVQ_F	RF00619	U6atac	3.50e-16	60	U6atac minor spliceosomal RNA
+7E9I_A	RF00522	PreQ1	1.10e+00	31	PreQ1 (pre queuosine) riboswitch aptamer
+7ELH_N	RF04217	mir-297	4.70e+00	26	mir-297 microRNA precursor family
+7ELH_P	RF04217	mir-297	4.40e+00	26	mir-297 microRNA precursor family
+7ELH_R	RF01825	RUF21	8.10e+00	38	RNA of unknown function 21
+7ELH_T	RF04217	mir-297	4.50e+00	-24	mir-297 microRNA precursor family
+7ELH_U	RF04217	mir-297	4.50e+00	26	mir-297 microRNA precursor family
+7ELP_A	RF03054	Xanthine	1.00e-09	44	Xanthine riboswitch aptamer (NMT1 RNA)
+7EOG_A	RF01759	sucC	3.10e+00	-27	sucC RNA
+7JHY_z	RF02597	shuA_thermo	1.20e+00	12	shuA/chuA 5' UTR thermoregulator
+7JIL_3	RF00001	5S_rRNA	7.10e-19	110	5S ribosomal RNA
+7JJD_A	RF02541	LSU_rRNA_bacteria	4.10e-02	26	Bacterial large subunit ribosomal RNA
+7JJU_A	RF04326	PV_xrRNA_class3	1.90e-06	49	Exoribonuclease-resistant RNA (xrRNA) plant-infecting virus (class 3)
+7K4L_A	RF02340	DENV_SLA	2.50e-04	34	Dengue virus SLA
+7KGA_A	RF00525	Flavivirus_DB	2.30e-08	81	Flavivirus DB element
+7KHA_J	RF00454	p27_CRE	7.00e+00	-14	p27 cis-regulatory element
+7KJT_A	RF00005	tRNA	7.70e-13	69	tRNA
+7KJV_C	RF00375	HIV_PBS	3.80e-01	22	HIV primer binding site (PBS)
+7KJV_D	RF00375	HIV_PBS	4.80e+00	-20	HIV primer binding site (PBS)
+7KUB_A	RF03156	L31-Firmicutes	1.30e-01	41	L31-Firmicutes ribosomal protein leader
+7LH5_CY	RF01323	CRISPR-DR10	1.40e+00	15	CRISPR RNA direct repeat element
+7LJ3_A	RF00005	tRNA	2.40e-10	71	tRNA
+7LMB_B	RF00025	Telomerase-cil	1.20e-23	151	Ciliate telomerase RNA
+7LVA_A	RF00375	HIV_PBS	4.50e-29	99	HIV primer binding site (PBS)
+7MKT_A	RF01295	SCARNA7	1.20e+00	21	Small Cajal body-specific RNA 7
+7MKY_A	RF00507	Corona_FSE	8.60e-08	64	Coronavirus frameshifting stimulation element
+7MLW_F	RF00442	Guanidine-I	8.90e-12	123	Guanidine-I riboswitch aptamer
+7MQ8_L2	RF00012	U3	1.50e-46	215	Small nucleolar RNA U3
+7N0C_T	RF03125	Sarbecovirus-3UTR	6.50e-02	25	Sarbecovirus 3'UTR
+7NAF_1	RF02543	LSU_rRNA_eukarya	1.10e-14	378	Eukaryotic large subunit ribosomal RNA
+7NWW_z	RF02223	sX4	4.70e-05	88	Proteobacterial sRNA sX4
+7O5B_W	RF01854	Bacteria_large_SRP	2.30e-44	264	Bacterial large signal recognition particle RNA
+7O7Z_AH	RF00507	Corona_FSE	7.90e-18	77	Coronavirus frameshifting stimulation element
+7OBQ_1	RF00017	Metazoa_SRP	7.20e-46	163	Metazoan signal recognition particle RNA
+7OF1_3	RF00001	5S_rRNA	1.80e+00	41	5S ribosomal RNA
+7OF2_A	RF02541	LSU_rRNA_bacteria	3.70e-97	1410	Bacterial large subunit ribosomal RNA
+7ONB_H	RF00004	U2	1.00e-06	32	U2 spliceosomal RNA
+7ONU_T	RF00005	tRNA	1.20e-09	64	tRNA
+7OOD_4	RF00001	5S_rRNA	2.60e-16	105	5S ribosomal RNA
+7PKT_3	RF02541	LSU_rRNA_bacteria	7.30e-36	184	Bacterial large subunit ribosomal RNA
+7PKT_4	RF02541	LSU_rRNA_bacteria	1.70e-08	118	Bacterial large subunit ribosomal RNA
+7PKT_5	RF02541	LSU_rRNA_bacteria	8.30e-15	125	Bacterial large subunit ribosomal RNA
+7Q3L_2	RF00004	U2	1.20e-08	41	U2 spliceosomal RNA
+7QCA_L50	RF02543	LSU_rRNA_eukarya	0.00e+00	2404	Eukaryotic large subunit ribosomal RNA
+7QR4_B	RF00622	CPEB3_ribozyme	3.60e-21	68	Mammalian CPEB3 ribozyme
+7QSH_A	RF02541	LSU_rRNA_bacteria	1.10e-02	25	Bacterial large subunit ribosomal RNA
+7R6Q_1	RF02543	LSU_rRNA_eukarya	7.40e-13	153	Eukaryotic large subunit ribosomal RNA
+7R6Q_2	RF00002	5_8S_rRNA	6.70e-12	54	5.8S ribosomal RNA
+7R72_1	RF02543	LSU_rRNA_eukarya	2.80e-108	641	Eukaryotic large subunit ribosomal RNA
+7R7C_1	RF02543	LSU_rRNA_eukarya	7.50e-26	188	Eukaryotic large subunit ribosomal RNA
+7R81_B1	RF00001	5S_rRNA	3.50e-21	120	5S ribosomal RNA
+7RDX_T	RF03125	Sarbecovirus-3UTR	4.50e-06	32	Sarbecovirus 3'UTR
+7RR5_P	RF00005	tRNA	2.10e-14	73	tRNA
+7S3H_R	RF02348	tracrRNA	1.30e-02	30	Trans-activating crRNA
+7T1N_A	RF00100	7SK	1.20e-12	55	7SK RNA
+7TJ2_G	RF00027	let-7	5.30e+00	31	let-7 microRNA precursor family
+7TJ2_H	RF00027	let-7	5.30e+00	-29	let-7 microRNA precursor family
+7U2H_1y	RF00005	tRNA	3.30e-13	70	tRNA
+7U4A_A	RF01415	Flavivirus_SLIV	5.00e-03	70	Flavivirus 3'UTR stem loop IV
+7U5D_1	RF01317	CRISPR-DR4	2.40e-02	20	CRISPR RNA direct repeat element
+7UME_A	RF02340	DENV_SLA	1.20e-01	24	Dengue virus SLA
+7UO0_B	RF00010	RNaseP_bact_a	1.20e-100	371	Bacterial RNase P class A
+7URI_y	RF01852	tRNA-Sec	2.20e-11	86	Selenocysteine transfer RNA
+7UZ0_A	RF00005	tRNA	4.10e-09	85	tRNA
+7WIA_V	RF02977	THF-II	1.60e-08	37	THF-II riboswitch (folE RNA)
+7WKP_B	RF01317	CRISPR-DR4	4.30e-01	20	CRISPR RNA direct repeat element
+7X34_3	RF01960	SSU_rRNA_eukarya	7.70e-08	94	Eukaryotic small subunit ribosomal RNA
+7XD6_A	RF02543	LSU_rRNA_eukarya	2.10e-03	25	Eukaryotic large subunit ribosomal RNA
+7XK0_B	RF00005	tRNA	2.60e-12	70	tRNA
+7XUI_R	RF02144	rsmX	6.50e+00	84	rsmX
+7YR7_A	RF00166	PrrB_RsmZ	1.30e-17	118	PrrB/RsmZ RNA family
+7ZFW_L5	RF02543	LSU_rRNA_eukarya	3.60e-78	612	Eukaryotic large subunit ribosomal RNA
+7ZJW_I	RF00458	IRES_Cripavirus	2.30e-35	180	Cripavirus internal ribosome entry site (IRES)
+7ZJW_S	RF00031	SECIS_1	8.70e-04	45	Selenocysteine insertion sequence 1
+7ZJX_I	RF00458	IRES_Cripavirus	1.40e-35	163	Cripavirus internal ribosome entry site (IRES)
+7ZPJ_B	RF00455	mir-15	3.80e-09	53	mir-15 microRNA precursor family
+7ZW0_sm	RF00519	suhB	6.10e+00	-13	Makes More Granules Regulator RNA (mmgR)
+8A22_A3	RF02541	LSU_rRNA_bacteria	1.10e-24	207	Bacterial large subunit ribosomal RNA
+8A22_A4	RF02541	LSU_rRNA_bacteria	3.00e-05	73	Bacterial large subunit ribosomal RNA
+8A22_A5	RF02541	LSU_rRNA_bacteria	7.60e-11	90	Bacterial large subunit ribosomal RNA
+8A22_A7	RF02541	LSU_rRNA_bacteria	9.50e-79	534	Bacterial large subunit ribosomal RNA
+8A22_A8	RF02541	LSU_rRNA_bacteria	3.20e-54	350	Bacterial large subunit ribosomal RNA
+8A22_A9	RF00950	mir-927	1.50e+00	-62	mir-927 microRNA precursor family
+8A22_B2	RF00177	SSU_rRNA_bacteria	4.70e-07	195	Bacterial small subunit ribosomal RNA
+8A22_B3	RF00177	SSU_rRNA_bacteria	2.60e-38	373	Bacterial small subunit ribosomal RNA
+8A22_B4	RF00177	SSU_rRNA_bacteria	3.10e-25	332	Bacterial small subunit ribosomal RNA
+8A57_B	RF00001	5S_rRNA	3.40e-20	113	5S ribosomal RNA
+8APN_C1	RF00005	tRNA	1.20e-12	72	tRNA
+8AW3_1	RF00005	tRNA	7.40e-15	72	tRNA
+8BHF_21	RF00005	tRNA	2.30e-05	61	tRNA
+8BSI_LD	RF00002	5_8S_rRNA	2.10e-06	126	5.8S ribosomal RNA
+8BSI_LE	RF00001	5S_rRNA	2.80e-17	114	5S ribosomal RNA
+8BTK_AT	RF00005	tRNA	9.20e-11	72	tRNA
+8CBK_T	RF00005	tRNA	7.10e-08	63	tRNA
+8CQ1_A	RF03120	Sarbecovirus-5UTR	4.70e-09	44	Sarbecovirus 5'UTR
+8CTI_C	RF00005	tRNA	5.10e-12	70	tRNA
+8D29_C	RF00173	Hairpin	8.00e+00	24	Hairpin ribozyme
+8DFV_E	RF00027	let-7	3.70e-09	57	let-7 microRNA precursor family
+8DGA_E	RF00027	let-7	4.20e-01	20	let-7 microRNA precursor family
+8DGA_F	RF00027	let-7	1.90e-01	-17	let-7 microRNA precursor family
+8E29_B	RF02538	TarB	3.90e-03	31	Vibrio ToxT activated RNA TarB
+8E74_R	RF02370	Trp_leader_2	4.30e+00	22	Bacillus tryptophan operon leader
+8EHQ_R	RF02455	Virus_CITE_1	7.70e+00	19	Dianthovirus RNA2 cap-independent translation element
+8ETJ_2	RF00002	5_8S_rRNA	2.40e-38	141	5.8S ribosomal RNA
+8EWG_B	RF01554	TB9Cs2H1	3.60e+00	-21	Trypanosomatid snoRNA TB9Cs2H1
+8F3C_R	RF00522	PreQ1	1.90e-07	40	PreQ1 (pre queuosine) riboswitch aptamer
+8FB3_C	RF00522	PreQ1	1.60e-04	27	PreQ1 (pre queuosine) riboswitch aptamer
+8FCS_A	RF00661	mir-31	7.50e-16	69	mir-31 microRNA precursor family
+8FJK_a1	RF01825	RUF21	5.70e+00	-41	RNA of unknown function 21
+8FJK_a3	RF01825	RUF21	5.20e+00	38	RNA of unknown function 21
+8FJK_a5	RF04217	mir-297	5.40e+00	26	mir-297 microRNA precursor family
+8FJK_a6	RF04217	mir-297	4.20e+00	26	mir-297 microRNA precursor family
+8FJL_a5	RF02217	ZNFX1-AS1_3	4.40e+00	-12	ZNFX1 antisense RNA 1 conserved region 3
+8FLI_A	RF02012	group-II-D1D4-7	2.20e-28	150	Group II catalytic intron D1-D4-7
+8FON_QV	RF00005	tRNA	1.90e-14	70	tRNA
+8FUK_1	RF01317	CRISPR-DR4	4.90e-06	20	CRISPR RNA direct repeat element
+8FZT_A	RF01335	CRISPR-DR22	5.90e-03	-16	CRISPR RNA direct repeat element
+8GZQ_S	RF02340	DENV_SLA	2.40e-17	66	Dengue virus SLA
+8H8E_G	RF00005	tRNA	2.70e-11	71	tRNA
+8HB1_B	RF02371	PyrG_leader	5.30e+00	24	PyrG leader
+8HMZ_3	RF00023	tmRNA	9.50e-04	17	transfer-messenger RNA
+8I0P_H	RF00004	U2	9.10e-32	165	U2 spliceosomal RNA
+8I9R_C2	RF00002	5_8S_rRNA	2.80e-44	150	5.8S ribosomal RNA
+8IAZ_E	RF03064	RAGATH-18	3.20e-12	64	RAGATH-18 RNA
+8IBY_E	RF02136	HTT-AS1_3	2.50e-02	32	HTT antisense RNA 1 conserved region 3
+8IDF_B	RF00026	U6	1.10e-02	27	U6 spliceosomal RNA
+8INK_3	RF00001	5S_rRNA	1.10e-21	115	5S ribosomal RNA
+8J7R_C	RF00210	IRES_Picorna_2	1.80e-13	97	Aphthovirus internal ribosome entry site (IRES)
+8JA0_B	RF01344	CRISPR-DR34	2.50e-06	40	CRISPR RNA direct repeat element
+8JIV_Ab	RF00001	5S_rRNA	1.60e-22	118	5S ribosomal RNA
+8K1E_B	RF01684	mascRNA-menRNA	1.70e-11	54	MALAT1-associated small cytoplasmic RNA/MEN beta RNA
+8K2Z_A	RF01684	mascRNA-menRNA	5.60e-18	57	MALAT1-associated small cytoplasmic RNA/MEN beta RNA
+8K30_B	RF01684	mascRNA-menRNA	1.50e-12	51	MALAT1-associated small cytoplasmic RNA/MEN beta RNA
+8KAI_E	RF01335	CRISPR-DR22	7.60e-02	-12	CRISPR RNA direct repeat element
+8KAK_A	RF02348	tracrRNA	2.20e-11	76	Trans-activating crRNA
+8KD9_M	RF00005	tRNA	7.20e-14	72	tRNA
+8OM2_r	RF00177	SSU_rRNA_bacteria	3.30e-108	1471	Bacterial small subunit ribosomal RNA
+8ONZ_2	RF00002	5_8S_rRNA	4.90e-15	59	5.8S ribosomal RNA
+8P6P_3	RF02541	LSU_rRNA_bacteria	4.20e-04	24	Bacterial large subunit ribosomal RNA
+8P7X_6	RF00005	tRNA	6.40e-15	73	tRNA
+8PJ9_B	RF01335	CRISPR-DR22	1.90e-02	-14	CRISPR RNA direct repeat element
+8PV6_C4	RF00001	5S_rRNA	2.20e-16	115	5S ribosomal RNA
+8Q7N_4	RF00015	U4	1.30e-15	76	U4 spliceosomal RNA
+8Q7N_6	RF00026	U6	3.70e-24	78	U6 spliceosomal RNA
+8QFD_8	RF00002	5_8S_rRNA	8.20e-34	142	5.8S ribosomal RNA
+8QIE_1	RF02543	LSU_rRNA_eukarya	1.30e-182	1611	Eukaryotic large subunit ribosomal RNA
+8QP8_5	RF00020	U5	7.50e-09	69	U5 spliceosomal RNA
+8QPE_6	RF00026	U6	2.30e-14	43	U6 spliceosomal RNA
+8R3V_71	RF02541	LSU_rRNA_bacteria	7.20e-06	30	Bacterial large subunit ribosomal RNA
+8R6C_Y	RF00005	tRNA	2.10e-12	69	tRNA
+8RD8_D8	RF00001	5S_rRNA	3.40e-22	115	5S ribosomal RNA
+8S9T_F	RF02990	gut-2	2.50e+00	12	gut-2 RNA
+8S9U_G	RF02990	gut-2	2.30e+00	-10	gut-2 RNA
+8SA4_A	RF00174	Cobalamin	7.60e-35	185	Cobalamin riboswitch aptamer
+8SCF_A	RF00161	nos_TCE	3.10e-05	29	Nanos 3' UTR translation control element
+8SCH_A	RF00161	nos_TCE	5.30e-08	53	Nanos 3' UTR translation control element
+8SCZ_B	RF03771	mir-341	1.10e-03	56	mir-341 microRNA precursor family
+8SH5_R	RF02521	Virus-PTE	2.90e-29	85	Panicum mosaic virus cap-independent translation enhancer RNA (PTE)
+8SUP_3	RF00210	IRES_Picorna_2	8.50e-15	83	Aphthovirus internal ribosome entry site (IRES)
+8SYK_B	RF00163	Hammerhead_1	9.60e-06	99	Hammerhead ribozyme (type I)
+8T2O_R	RF02922	RAGATH-32	5.40e-01	67	RAGATH-32 RNA
+8TNS_A	RF01295	SCARNA7	1.20e+00	22	Small Cajal body-specific RNA 7
+8TOZ_A	RF02680	PreQ1-III	5.10e-20	94	PreQ1-III (pre queuosine) riboswitch aptamer
+8U3M_A	RF00250	mir-TAR	8.20e-03	30	Trans-activation response element (TAR)
+8UBE_I	RF03022	Phage_DGR	4.90e-20	133	Bacteriophage Diversity-Generating Retroelement RNA
+8UIW_N	RF01764	azaaromatic	1.70e-12	121	azaaromatic riboswitch aptamer (yjdF RNA)
+8UO6_A	RF00036	RRE	3.70e-17	67	HIV Rev response element
+8VK7_B	RF00001	5S_rRNA	6.20e-17	112	5S ribosomal RNA
+8VM8_R	RF00386	Entero_5_CRE	4.80e-24	92	Enterovirus 5' cloverleaf cis-acting replication element
+8VMB_R	RF00386	Entero_5_CRE	4.70e-13	83	Enterovirus 5' cloverleaf cis-acting replication element
+8VQV_A	RF01750	ZMP-ZTP	2.70e-07	63	ZMP/ZTP riboswitch aptamer (pfl RNA motif)
+8VZ6_R	RF03085	abiF	1.70e-11	37	abiF RNA
+8WCE_G	RF00246	mir-135	4.20e+00	40	mir-135 microRNA precursor family
+8WND_R	RF00005	tRNA	2.70e-13	70	tRNA
+8WUV_B	RF02348	tracrRNA	1.40e-11	82	Trans-activating crRNA
+8X5V_B	RF00617	cHP	4.70e+00	-18	Flavivirus capsid hairpin cHP
+8XSY_CC	RF00005	tRNA	1.50e-09	66	tRNA
+8XZE_A	RF02977	THF-II	7.30e-13	39	THF-II riboswitch (folE RNA)
+8Y6O_K	RF00619	U6atac	4.40e-08	44	U6atac minor spliceosomal RNA
+8Y6O_P	RF00548	U11	6.50e-23	124	U11 spliceosomal RNA
+8YDC_A	RF03152	RAGATH-1-hammerhead	3.70e-08	56	RAGATH-1 hammerhead ribozyme
+8ZMI_C	RF01084	TLS-PK3	1.30e-29	129	Pseudoknot of tRNA-like structure
+9ASP_E	RF00027	let-7	1.40e-14	72	let-7 microRNA precursor family
+9B0Q_AP	RF00005	tRNA	7.20e-10	70	tRNA
+9B1Y_4	RF02541	LSU_rRNA_bacteria	3.00e-16	76	Bacterial large subunit ribosomal RNA
+9BH5_A7	RF00001	5S_rRNA	4.10e-24	118	5S ribosomal RNA
+9BH5_A8	RF00002	5_8S_rRNA	5.00e-26	143	5.8S ribosomal RNA
+9BLM_A	RF00185	Flavi_CRE	4.30e-04	65	Flavivirus 3' UTR cis-acting replication element (CRE)
+9BUP_AB	RF00001	5S_rRNA	1.10e-22	117	5S ribosomal RNA
+9BUP_AC	RF00002	5_8S_rRNA	2.90e-26	145	5.8S ribosomal RNA
+9BZ1_A	RF01750	ZMP-ZTP	1.10e-06	83	ZMP/ZTP riboswitch aptamer (pfl RNA motif)
+9CFN_A	RF04326	PV_xrRNA_class3	3.00e-01	49	Exoribonuclease-resistant RNA (xrRNA) plant-infecting virus (class 3)
+9CMP_G	RF00053	mir-7	1.40e-02	21	mir-7 microRNA precursor family
+9CMP_T	RF00053	mir-7	1.40e-02	-19	mir-7 microRNA precursor family
+9CPO_T	RF03125	Sarbecovirus-3UTR	4.60e-01	33	Sarbecovirus 3'UTR
+9CXF_A	RF03072	raiA	6.10e-51	200	raiA RNA
+9D9O_R	RF00386	Entero_5_CRE	1.40e-07	34	Enterovirus 5' cloverleaf cis-acting replication element
+9DE5_C	RF00250	mir-TAR	1.20e-11	52	Trans-activation response element (TAR)
+9DRT_F	RF00005	tRNA	9.10e-17	74	tRNA
+9DTT_B	RF02340	DENV_SLA	5.20e-13	66	Dengue virus SLA
+9E6Q_2	RF00001	5S_rRNA	3.00e-16	121	5S ribosomal RNA
+9E74_A	RF03072	raiA	2.00e-35	249	raiA RNA
+9E75_A	RF03072	raiA	8.30e-32	155	raiA RNA
+9E7G_R	RF00036	RRE	7.30e-14	70	HIV Rev response element
+9E8Z_J	RF00170	msr	8.80e-07	37	Retron msr RNA
+9E9C_B	RF00005	tRNA	1.90e-08	62	tRNA
+9E9O_A	RF03120	Sarbecovirus-5UTR	2.30e-30	100	Sarbecovirus 5'UTR
+9EBP_A	RF01764	azaaromatic	5.50e-12	78	azaaromatic riboswitch aptamer (yjdF RNA)
+9EHO_7	RF00001	5S_rRNA	2.50e-24	118	5S ribosomal RNA
+9EHO_8	RF00002	5_8S_rRNA	1.40e-29	147	5.8S ribosomal RNA
+9EHW_B	RF02747	FtrA	3.70e-07	64	Francisella sRNA A
+9ENE_C	RF00005	tRNA	4.10e-14	72	tRNA
+9ESH_5	RF00020	U5	2.70e-12	101	U5 spliceosomal RNA
+9EY1_T	RF00005	tRNA	2.80e-06	68	tRNA
+9FI8_bN	RF00177	SSU_rRNA_bacteria	9.30e+00	55	Bacterial small subunit ribosomal RNA
+9FIA_bO	RF00177	SSU_rRNA_bacteria	2.80e+00	115	Bacterial small subunit ribosomal RNA
+9FIA_bT	RF02542	SSU_rRNA_microsporidia	7.80e-06	52	Microsporidia small subunit ribosomal RNA
+9FM4_A	RF00164	s2m	3.90e-02	18	Coronavirus 3' stem-loop II-like motif (s2m)
+9FO8_A	RF03120	Sarbecovirus-5UTR	5.70e-04	29	Sarbecovirus 5'UTR
+9FO9_A	RF03120	Sarbecovirus-5UTR	5.30e-07	31	Sarbecovirus 5'UTR
+9G44_J	RF01317	CRISPR-DR4	3.50e-05	20	CRISPR RNA direct repeat element
+9G4Q_A	RF03030	salivarius-1	4.80e-13	48	salivarius-1 RNA
+9G4R_A	RF02926	DUF2693-FD	5.40e-14	46	DUF2693-FD RNA
+9G6K_lB	RF00505	RydC	4.40e+00	-14	RydC RNA
+9G6K_lM	RF02541	LSU_rRNA_bacteria	8.10e-23	194	Bacterial large subunit ribosomal RNA
+9GCM_A	RF00548	U11	3.80e-09	66	U11 spliceosomal RNA
+9H21_C	RF02348	tracrRNA	8.70e-09	62	Trans-activating crRNA
+9H2G_B	RF01335	CRISPR-DR22	4.30e-02	-13	CRISPR RNA direct repeat element
+9H91_B	RF00001	5S_rRNA	4.40e-21	117	5S ribosomal RNA
+9HLZ_t	RF00005	tRNA	1.80e-11	73	tRNA
+9HQV_SI	RF01363	CRISPR-DR50	1.30e+00	32	CRISPR RNA direct repeat element
+9HQV_SK	RF00177	SSU_rRNA_bacteria	4.90e+00	78	Bacterial small subunit ribosomal RNA
+9HYM_A	RF00005	tRNA	8.00e-12	73	tRNA
+9I05_RG	RF02701	PsrR1	1.50e+00	-39	Photosynthesis regulatory RNA1
+9I05_RL	RF02541	LSU_rRNA_bacteria	1.30e-07	178	Bacterial large subunit ribosomal RNA
+9I05_RV	RF02700	HtrA_thermometer	7.80e+00	35	HtrA 5' UTR thermometer
+9I05_RX	RF02541	LSU_rRNA_bacteria	1.00e-21	277	Bacterial large subunit ribosomal RNA
+9I05_Rh	RF00344	snoZ267	8.20e+00	43	Small nucleolar RNA Z267
+9IAK_O	RF01366	CRISPR-DR53	3.90e+00	12	CRISPR RNA direct repeat element
+9IF7_N6	RF00026	U6	4.90e-18	98	U6 spliceosomal RNA
+9IMM_P	RF03120	Sarbecovirus-5UTR	2.20e-04	39	Sarbecovirus 5'UTR
+9IMM_R	RF03120	Sarbecovirus-5UTR	7.50e-04	-40	Sarbecovirus 5'UTR
+9IRF_I	RF01317	CRISPR-DR4	4.70e-02	15	CRISPR RNA direct repeat element
+9IRI_M	RF01317	CRISPR-DR4	4.50e-01	19	CRISPR RNA direct repeat element
+9IS7_B	RF02681	Twister-sister	7.50e+00	17	Twister_sister_ribozyme
+9IWG_A	RF00167	Purine	1.00e-07	69	Purine riboswitch aptamer
+9J3T_A	RF03087	ROOL	4.00e-54	519	ROOL RNA
+9J6Y_A	RF03087	ROOL	4.80e-25	490	ROOL RNA
+9J9X_N	RF00028	Intron_gpI	8.40e-33	282	Group I catalytic intron
+9JGM_A	RF00176	Tombus_3_IV	1.50e-01	61	Tombusvirus 3' UTR region IV
+9K2Z_B	RF02033	HEARO	5.20e-06	248	HNH endonuclease-associated RNA and ORF (HEARO) RNA
+9K9G_A	RF00028	Intron_gpI	4.60e-26	236	Group I catalytic intron
+9K9K_A	RF00028	Intron_gpI	4.90e-22	226	Group I catalytic intron
+9KPH_A	RF02933	ARRPOF	2.90e-58	249	ARRPOF RNA
+9L5R_5	RF00020	U5	2.60e-11	111	U5 spliceosomal RNA
+9L5T_6	RF00026	U6	2.50e-21	90	U6 spliceosomal RNA
+9L94_1	RF00001	5S_rRNA	4.40e-20	115	5S ribosomal RNA
+9LCR_A	RF01071	OLE	1.60e-85	361	Ornate Large Extremophilic RNA
+9LEL_J	RF02032	GOLLD	3.20e-64	336	Giant, ornate, lake- and Lactobacillales-derived (GOLLD) RNA
+9LHK_G	RF02032	GOLLD	4.30e-87	369	Giant, ornate, lake- and Lactobacillales-derived (GOLLD) RNA
+9LKU_X	RF00167	Purine	1.00e-02	61	Purine riboswitch aptamer
+9LV7_R	RF03016	RT-12	1.70e-07	110	RT-12 RNA
+9M86_B	RF00026	U6	7.40e-06	26	U6 spliceosomal RNA
+9MDS_A	RF03087	ROOL	1.30e-41	596	ROOL RNA
+9MME_U	RF03087	ROOL	2.30e-82	521	ROOL RNA
+9MVS_C	RF01323	CRISPR-DR10	3.20e+00	28	CRISPR RNA direct repeat element
+9N3I_A	RF00504	Glycine	2.80e-14	95	Glycine riboswitch aptamer
+9N69_I	RF00170	msr	1.30e-04	37	Retron msr RNA
+9N6X_L0	RF03828	MIR831	2.20e+00	51	MIR831 microRNA precursor family
+9NAK_A	RF00005	tRNA	5.80e-13	74	tRNA
+9NBC_A	RF00167	Purine	6.70e-08	63	Purine riboswitch aptamer
+9NHB_B	RF00684	mir-122	1.10e-01	23	mir-122 microRNA precursor family
+9NHB_C	RF00684	mir-122	1.10e-01	-21	mir-122 microRNA precursor family
+9NLN_C	RF00229	IRES_Picorna	3.70e-33	110	Picornavirus internal ribosome entry site (IRES)
+9NLV_G	RF00027	let-7	7.00e+00	43	let-7 microRNA precursor family
+9NZP_E	RF03163	c4-a1b1	9.10e-02	-30	a1, b1 targets of C4 antisense RNA
+9O3Y_Pt	RF00005	tRNA	1.90e-13	70	tRNA
+9OBM_A	RF00051	mir-17	8.00e-18	72	mir-17 microRNA precursor family
+9OWL_A	RF00011	RNaseP_bact_b	1.40e-98	397	Bacterial RNase P class B
+9OWX_C	RF00005	tRNA	6.90e-17	72	tRNA
+9OZ9_A	RF00005	tRNA	3.50e-13	70	tRNA
+9PDE_A	RF00250	mir-TAR	2.90e-03	28	Trans-activation response element (TAR)
+9PRC_J	RF04217	mir-297	5.30e+00	26	mir-297 microRNA precursor family
+9PRC_K	RF01825	RUF21	5.40e+00	38	RNA of unknown function 21
+9Q2P_AT	RF00005	tRNA	2.00e-10	65	tRNA
+9Q7Q_2	RF00005	tRNA	2.80e-11	72	tRNA
+9QF6_B2	RF00001	5S_rRNA	2.30e-18	122	5S ribosomal RNA
+9QRP_T	RF01852	tRNA-Sec	8.20e-05	85	Selenocysteine transfer RNA
+9QSJ_Y	RF00005	tRNA	3.10e-13	70	tRNA
+9QT5_2	RF00001	5S_rRNA	2.30e-20	114	5S ribosomal RNA
+9QWN_D	RF00032	Histone3	2.20e-06	21	Histone 3' UTR stem-loop
+9RPV_E5	RF00005	tRNA	4.50e-08	66	tRNA
+9RWA_E	RF00626	Gurken	9.80e-12	46	Gurken localisation signal
+9RWZ_G	RF00053	mir-7	1.20e-03	24	mir-7 microRNA precursor family
+9S2E_2	RF00004	U2	2.40e-11	41	U2 spliceosomal RNA
+9S2F_6	RF00026	U6	6.20e-04	35	U6 spliceosomal RNA
+9S7B_Ax	RF00005	tRNA	5.20e-11	67	tRNA
+9SHX_J	RF03058	sul1	3.50e+00	-19	sul1 RNA
+9SPF_At	RF00005	tRNA	8.10e-09	69	tRNA
+9SRF_1	RF02540	LSU_rRNA_archaea	1.60e-16	92	Archaeal large subunit ribosomal RNA
+9SVK_M	RF01323	CRISPR-DR10	3.10e+00	29	CRISPR RNA direct repeat element
+9SYR_S3	RF00005	tRNA	3.20e-14	71	tRNA
+9U47_B	RF00026	U6	2.10e-09	33	U6 spliceosomal RNA
+9U5P_R	RF00386	Entero_5_CRE	8.00e-13	75	Enterovirus 5' cloverleaf cis-acting replication element
+9UH9_A	RF00030	RNase_MRP	5.40e-62	248	RNase MRP
+9UTW_A	RF00005	tRNA	2.10e-06	61	tRNA
+9V1I_lB	RF00002	5_8S_rRNA	1.00e-10	141	5.8S ribosomal RNA
+9V1I_lC	RF00001	5S_rRNA	4.90e-18	-115	5S ribosomal RNA
+9V1J_sH	RF00005	tRNA	9.20e-18	72	tRNA
+9V24_sI	RF00005	tRNA	8.00e-14	68	tRNA
+9V7N_D	RF00556	L19_leader	2.90e+00	-21	Ribosomal protein L19 leader
+9V7N_E	RF01684	mascRNA-menRNA	7.00e-02	36	MALAT1-associated small cytoplasmic RNA/MEN beta RNA
+9VCL_P	RF03125	Sarbecovirus-3UTR	4.70e-02	-24	Sarbecovirus 3'UTR
+9W1L_A	RF00260	HepC_CRE	2.50e-03	24	Hepatitis C virus (HCV) cis-acting replication element (CRE)
+9W4R_C	RF00027	let-7	3.60e-05	57	let-7 microRNA precursor family
+9W5I_F	RF00027	let-7	1.60e+00	22	let-7 microRNA precursor family
+9W9F_R	RF00005	tRNA	8.60e-12	72	tRNA
+9WHX_F	RF00675	mir-145	1.80e+00	50	mir-145 microRNA precursor family
+9WXI_E	RF02359	MS2	4.70e-08	22	Bacteriophage MS2 operator hairpin
+9WXJ_E	RF02359	MS2	7.20e-08	22	Bacteriophage MS2 operator hairpin
+9X21_N	RF00028	Intron_gpI	1.50e-13	90	Group I catalytic intron
+9X4H_T	RF00005	tRNA	3.30e-15	73	tRNA
+9XU3_6	RF00619	U6atac	1.60e-27	114	U6atac minor spliceosomal RNA
+9XZS_A	RF00005	tRNA	1.70e-12	71	tRNA
+9Y49_A6	RF02543	LSU_rRNA_eukarya	0.00e+00	2068	Eukaryotic large subunit ribosomal RNA
+9Y4G_A5	RF02543	LSU_rRNA_eukarya	7.90e-262	1731	Eukaryotic large subunit ribosomal RNA
+9YGM_L3	RF00001	5S_rRNA	3.70e-25	122	5S ribosomal RNA
+9YMA_B	RF00051	mir-17	4.10e-03	22	mir-17 microRNA precursor family
+9YMA_C	RF00051	mir-17	1.90e-02	-18	mir-17 microRNA precursor family
+9Z0H_R	RF00005	tRNA	4.00e-12	74	tRNA
+9Z2W_B	RF00005	tRNA	1.20e-08	66	tRNA

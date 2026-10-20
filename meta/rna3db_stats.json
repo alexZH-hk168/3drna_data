@@ -1,0 +1,167 @@
+{
+  "atoms_per_structure": {
+    "max": 119751,
+    "mean": 16434.26075,
+    "min": 37
+  },
+  "bounding_box_extent_angstrom": {
+    "diagonal_max": 466.4383822702431,
+    "diagonal_min": 20.26119095771105,
+    "side_max": 372.98799896240234,
+    "side_min": 8.0780029296875
+  },
+  "elements": {
+    "atomic_numbers": [
+      1,
+      5,
+      6,
+      7,
+      8,
+      9,
+      15,
+      16,
+      53
+    ],
+    "count": 9,
+    "counts": {
+      "1": 3229977,
+      "15": 5999855,
+      "16": 638,
+      "5": 24,
+      "53": 1,
+      "6": 57200358,
+      "7": 23423310,
+      "8": 41619899,
+      "9": 24
+    },
+    "symbols": [
+      "H",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "P",
+      "S",
+      "I"
+    ]
+  },
+  "exact": {
+    "_overall_resolved_ratio": 0.9062371890833042,
+    "chain_fraction_with_hydrogens": 0.06430930639207305,
+    "cluster_size_max": 693,
+    "cluster_size_min": 1,
+    "element_counts": {
+      "B": 60,
+      "C": 110468344,
+      "F": 66,
+      "H": 6526316,
+      "I": 4,
+      "N": 45255247,
+      "O": 80363160,
+      "P": 11582022,
+      "S": 1250
+    },
+    "element_set": [
+      "H",
+      "B",
+      "C",
+      "N",
+      "O",
+      "F",
+      "P",
+      "S",
+      "I"
+    ],
+    "hydrogen_fraction_of_atoms": 0.025674298410494442,
+    "n_atoms_total": 254196469,
+    "n_chains_in_clusters_gt1": 14489,
+    "n_chains_with_hydrogens": 993,
+    "n_clusters": 2199,
+    "n_component_0_chains": 1378,
+    "n_components": 142,
+    "n_hydrogen_atoms": 6526316,
+    "n_singleton_clusters": 952,
+    "n_structures": 15441,
+    "note": "every figure under \"exact\" is computed from the FULL collated tensors (ptr.diff(), bincount(z)), not from the sample. The sampled quantities elsewhere in this file carry their own n_samples. label_key is \"resolution\" (angstrom) because RNA3DB has no y.",
+    "splits": {
+      "test": {
+        "atoms_max": 16160,
+        "atoms_mean": 1567.3758793969848,
+        "atoms_median": 1052.0,
+        "atoms_min": 32,
+        "element_counts": {
+          "B": 12,
+          "C": 1348177,
+          "F": 61,
+          "H": 102647,
+          "I": 4,
+          "N": 541051,
+          "O": 985114,
+          "P": 142003,
+          "S": 9
+        },
+        "n_atoms_total": 3119078,
+        "n_chains_with_hydrogens": 203,
+        "n_chains_with_unresolved_residues": 1227,
+        "n_clusters": 660,
+        "n_components": 51,
+        "n_hydrogen_atoms": 102647,
+        "n_no_rfam_hit": 1365,
+        "n_structures": 1990,
+        "resolution_max": 9.0,
+        "resolution_min": 1.0499999523162842,
+        "resolved_ratio": 0.7287988037199393,
+        "resolved_residues_total": 142314,
+        "seq_length_max": 1824,
+        "seq_length_mean": 98.12663316582915,
+        "seq_length_min": 32,
+        "seq_residues_total": 195272
+      },
+      "train": {
+        "atoms_max": 119751,
+        "atoms_mean": 18666.076202512824,
+        "atoms_median": 2579.0,
+        "atoms_min": 29,
+        "element_counts": {
+          "B": 48,
+          "C": 109120167,
+          "F": 5,
+          "H": 6423669,
+          "N": 44714196,
+          "O": 79378046,
+          "P": 11440019,
+          "S": 1241
+        },
+        "n_atoms_total": 251077391,
+        "n_chains_with_hydrogens": 790,
+        "n_chains_with_unresolved_residues": 7592,
+        "n_clusters": 1539,
+        "n_components": 91,
+        "n_hydrogen_atoms": 6423669,
+        "n_no_rfam_hit": 58,
+        "n_structures": 13451,
+        "resolution_max": 9.0,
+        "resolution_min": 1.309999942779541,
+        "resolved_ratio": 0.9089889080673468,
+        "resolved_residues_total": 11445692,
+        "seq_length_max": 19000,
+        "seq_length_mean": 936.114340941194,
+        "seq_length_min": 32,
+        "seq_residues_total": 12591674
+      }
+    },
+    "structure_method_counts": {
+      "electron microscopy": 9625,
+      "electron microscopy,solution nmr": 2,
+      "x-ray diffraction": 5814
+    }
+  },
+  "label_resolution": {
+    "max": 9.0,
+    "mean": 3.3148551670610904,
+    "min": 1.0499999523162842
+  },
+  "n_total": 15441,
+  "sample_size": 8000
+}
