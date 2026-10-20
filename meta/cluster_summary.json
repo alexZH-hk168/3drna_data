@@ -1,37 +1,37 @@
 {
  "100": {
-  "n_sequences": 4716,
-  "n_clusters": 3660,
-  "singleton_clusters": 3108,
+  "n_sequences": 4180,
+  "n_clusters": 3413,
+  "singleton_clusters": 2984,
   "largest_cluster": 31,
-  "mean_cluster_size": 1.29
+  "mean_cluster_size": 1.22
  },
  "90": {
-  "n_sequences": 4716,
-  "n_clusters": 2052,
-  "singleton_clusters": 1378,
-  "largest_cluster": 153,
-  "mean_cluster_size": 2.3
+  "n_sequences": 4180,
+  "n_clusters": 1987,
+  "singleton_clusters": 1445,
+  "largest_cluster": 147,
+  "mean_cluster_size": 2.1
  },
  "70": {
-  "n_sequences": 4716,
-  "n_clusters": 1751,
-  "singleton_clusters": 1146,
-  "largest_cluster": 326,
-  "mean_cluster_size": 2.69
+  "n_sequences": 4180,
+  "n_clusters": 1732,
+  "singleton_clusters": 1220,
+  "largest_cluster": 317,
+  "mean_cluster_size": 2.41
  },
  "50": {
-  "n_sequences": 4716,
-  "n_clusters": 1667,
-  "singleton_clusters": 1095,
-  "largest_cluster": 392,
-  "mean_cluster_size": 2.83
+  "n_sequences": 4180,
+  "n_clusters": 1675,
+  "singleton_clusters": 1184,
+  "largest_cluster": 368,
+  "mean_cluster_size": 2.5
  },
  "30": {
-  "n_sequences": 4716,
-  "n_clusters": 1657,
-  "singleton_clusters": 1087,
-  "largest_cluster": 429,
-  "mean_cluster_size": 2.85
+  "n_sequences": 4180,
+  "n_clusters": 1661,
+  "singleton_clusters": 1170,
+  "largest_cluster": 418,
+  "mean_cluster_size": 2.52
  }
 }

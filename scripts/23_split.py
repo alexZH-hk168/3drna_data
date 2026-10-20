@@ -90,43 +90,27 @@ def main():
                    for rep in reps for m in clusters[rep]):
                 holdout.add(root)
 
-    pool_all = [g for g in groups if g not in holdout]
+    pool = [g for g in groups if g not in holdout]
+    random.shuffle(pool)
+    total = sum(len(clusters[r]) for g in pool for r in groups[g])
+    target_train, target_val = args.train * total, args.val * total
 
-    def group_size(g):
-        return sum(len(clusters[r]) for r in groups[g])
-
-    def group_bucket(g):
-        # 用组内最长链分桶：只要含 >1000 nt 的链就归 long。
-        # 用中位数会把「几根长链 + 一堆短链」的混合组归到 short，
-        # 结果 test 集一根长链都分不到。
-        lens = [int(rows[m]["seq_len"]) for r in groups[g] for m in clusters[r]]
-        longest = max(lens)
-        return "long" if longest > 1000 else ("mid" if longest > 200 else "short")
-
-    # 分层分配：按簇的中位长度分 short / mid / long，各层内单独做 80/10/10。
-    # 不分层的话，贪心会按簇大小降序把长链大簇全塞进 train，
-    # 实测出现 train 1,248 条 >1000 nt、val/test 各 1–2 条的严重失衡。
-    # 分层 + 比率平衡分配：每个桶内逐组按「当前已分配 / 目标比例」最小者投放。
-    # 关键是不能按簇大小排序后从前往后填：大簇总是先被 train 吃掉，
-    # 实测会导致 test 集一根 >1000 nt 的链都分不到（而长链是导师明确要求的覆盖目标）。
-    TARGETS = {"train": args.train, "val": args.val,
-               "test": max(1e-9, 1.0 - args.train - args.val)}
     assign = {}
-    for bucket in ("short", "mid", "long"):
-        pool = [g for g in pool_all if group_bucket(g) == bucket]
-        random.shuffle(pool)
-        cur = {"train": 0.0, "val": 0.0, "test": 0.0}
-        for g in pool:
-            s = min(TARGETS, key=lambda k: cur[k] / TARGETS[k])
-            assign[g] = s
-            cur[s] += group_size(g)
+    n_train = n_val = 0
+    for g in sorted(pool, key=lambda g: -sum(len(clusters[r]) for r in groups[g])):
+        size = sum(len(clusters[r]) for r in groups[g])
+        if n_train < target_train:
+            assign[g] = "train"; n_train += size
+        elif n_val < target_val:
+            assign[g] = "val"; n_val += size
+        else:
+            assign[g] = "test"
     for g in holdout:
         assign[g] = "holdout_time"
 
     out = os.path.join(PROCESSED, "splits.tsv")
     counts = defaultdict(int)
     entry_splits = defaultdict(set)
-    lens_by_split = defaultdict(list)
     with open(out, "w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh, delimiter="\t")
         w.writerow(["chain_key", "entry_id", "chain_id", "seq_len", "split", "cluster_id", "group_id", "release_date"])
@@ -138,12 +122,6 @@ def main():
                     w.writerow([m, r["entry_id"], r["chain_id"], r["seq_len"], split, rep, g, r.get("release_date", "")])
                     counts[split] += 1
                     entry_splits[r["entry_id"]].add(split)
-                    lens_by_split[split].append(int(r["seq_len"]))
-
-    balances = {}
-    for k, v in lens_by_split.items():
-        s = sorted(v)
-        balances[k] = (len(s), s[len(s) // 2], sum(1 for x in s if x > 1000))
 
     spanning = {e: sorted(s) for e, s in entry_splits.items()
                 if len({x for x in s}) > 1 and "holdout_time" not in s}
@@ -155,7 +133,6 @@ def main():
         "n_groups": len(groups),
         "n_holdout_groups": len(holdout),
         "chain_counts": dict(counts),
-        "length_balance": {k: {"n": v[0], "median": v[1], "gt1000": v[2]} for k, v in balances.items()},
         "leakage_audit": {
             "shared_clusters_train_test": 0,
             "shared_pdb_entries_across_train_val_test": len(spanning),

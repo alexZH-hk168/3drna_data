@@ -16,13 +16,6 @@ ROOT="$(dirname "$HERE")"
 cd "$ROOT"
 
 TOOL="${1:-cdhit}"
-# 宿主机 nproc 会报 144，超出容器配额；且 OMP_NUM_THREADS=0 会让 MMseqs2 误判线程与内存。
-# 统一用固定线程数，并在启动前把 OMP_NUM_THREADS 设成合法值。
-THREADS="${THREADS:-8}"
-case "${OMP_NUM_THREADS:-0}" in
-  ''|0|*[!0-9]*) export OMP_NUM_THREADS="$THREADS" ;;
-  *) [ "$OMP_NUM_THREADS" -gt "$THREADS" ] && export OMP_NUM_THREADS="$THREADS" ;;
-esac
 TSV="processed/chains_filtered.tsv"
 FASTA="processed/chains.fasta"
 OUTDIR="processed/clusters"
@@ -59,7 +52,7 @@ case "$TOOL" in
       echo "==> 聚类 ${ID}% (c=$([ "$ID" = 100 ] && echo 1.0 || echo "0.${ID}") n=${N})"
       timeout 3600 "$CDHIT" -i "$FASTA" -o "$TMP/c${ID}" \
         -c "$([ "$ID" = 100 ] && echo 1.0 || echo "0.${ID}")" -n "$N" \
-        -M 0 -T "$THREADS" -d 0 -l 10 > "logs/cluster_c${ID}.log" 2>&1
+        -M 0 -T "$(nproc)" -d 0 -l 10 > "logs/cluster_c${ID}.log" 2>&1
       RC=$?
       if [ $RC -ne 0 ]; then echo "    WARN: c${ID} 退出码 ${RC}，见 logs/cluster_c${ID}.log" >&2; continue; fi
       python3 scripts/22a_clstr_to_tsv.py "$TMP/c${ID}.clstr" "$PREFIX"
@@ -76,7 +69,7 @@ case "$TOOL" in
       mkdir -p "$TMP/c${ID}"
       echo "==> 聚类 ${ID}%"
       timeout 3600 mmseqs easy-cluster "$FASTA" "$PREFIX" "$TMP/c${ID}" \
-        --min-seq-id "$MINID" -c 0.8 --cov-mode 0 --threads "$THREADS" -v 1 \
+        --min-seq-id "$MINID" -c 0.8 --cov-mode 0 --threads "$(nproc)" -v 1 \
         > "logs/cluster_c${ID}.log" 2>&1
       RC=$?
       [ $RC -ne 0 ] && echo "    WARN: c${ID} 退出码 ${RC}" >&2

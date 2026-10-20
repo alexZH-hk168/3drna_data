@@ -1,0 +1,22 @@
+{
+ "tier": 90,
+ "bgsu_cutoff": "4.0A",
+ "n_chains": 4180,
+ "n_sequence_clusters": 1987,
+ "n_groups": 1282,
+ "union_edges": {
+  "cluster_edges": 2193,
+  "class_edges": 2118,
+  "entry_edges": 1108
+ },
+ "chains_by_split": {
+  "train": 3344,
+  "val": 418,
+  "test": 418
+ },
+ "long_chains_by_split": {
+  "train": 1077,
+  "val": 18,
+  "test": 53
+ }
+}

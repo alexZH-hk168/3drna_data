@@ -11,7 +11,6 @@
 import argparse
 import gzip
 import hashlib
-import http.client
 import json
 import os
 import sys
@@ -64,13 +63,9 @@ def fetch(entry_id, retries=3):
             with open(path, "wb") as fh:
                 fh.write(data)
             return entry_id, path, data, "downloaded"
-        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError,
-                ValueError, http.client.HTTPException, OSError) as exc:
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, ValueError) as exc:
             last = exc
             time.sleep(1.5 * (attempt + 1))
-        except Exception as exc:  # 不吞异常，但别让单条杀死整个任务
-            last = exc
-            time.sleep(1.0)
     return entry_id, path, None, f"failed:{last}"
 
 
